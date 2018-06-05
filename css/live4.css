@@ -752,7 +752,8 @@ ul.flex-list > li {
   padding: 5px 10px;
   border-radius: 2px;
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 21px;
+  font-weight: bold;
   background: none;
 }
 .is-main > .header .btn-nav:hover,
