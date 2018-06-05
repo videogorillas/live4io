@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Imported Layers 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Explore" sketch:type="MSArtboardGroup" transform="translate(-243.000000, -266.000000)">
+            <g id="Imported-Layers-4" sketch:type="MSLayerGroup" transform="translate(243.000000, 266.000000)">
+                <path d="M101.07,50.932 C101.071333,37.082 95.4473333,24.5126667 86.3693333,15.4406667 C77.298,6.36466667 64.7313333,0.739333333 50.8853333,0.739333333 L50.8806667,0.739333333 C37.028,0.738 24.4593333,6.36266667 15.3866667,15.4406667 C6.30866667,24.5126667 0.684,37.082 0.686,50.932 C0.684,64.7813333 6.30866667,77.3506667 15.3866667,86.4226667 C24.4573333,95.4993333 37.026,101.124 50.8726667,101.124 L50.878,101.124 C64.7273333,101.125333 77.2966667,95.5006667 86.3693333,86.4226667 C95.4473333,77.3506667 101.071333,64.7813333 101.07,50.932 L98.07,50.932" id="Fill-2" fill-opacity="0.6" fill="#1C1B19" sketch:type="MSShapeGroup"></path>
+                <path d="M40.121821,18.8959538 L67.3159989,36.1465071 L40.121821,53.3965453 L40.121821,18.8959538 Z" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <text id="Play" sketch:type="MSTextLayer" font-family="CytiaPro-Light" font-size="12" font-weight="260" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="40.5253906" y="71">Play</tspan>
+                    <tspan x="37.6748047" y="86">again</tspan>
+                </text>
+                <path d="M3.686,50.932 C3.686,76.9953333 24.814,98.1233333 50.878,98.124 C76.9413333,98.1233333 98.07,76.9953333 98.07,50.932 L97.4033333,50.932 C97.4033333,63.7806667 92.196,75.41 83.776,83.8306667 C75.356,92.25 63.7266667,97.4573333 50.878,97.4573333 C38.0286667,97.4573333 26.4,92.25 17.9793333,83.8306667 C9.55933333,75.41 4.35266667,63.7806667 4.352,50.932 C4.35266667,38.0833333 9.55933333,26.4533333 17.9793333,18.0333333 C26.4,9.61333333 38.0286667,4.406 50.878,4.406 C63.7266667,4.406 75.356,9.61333333 83.776,18.0333333 C92.196,26.4533333 97.4033333,38.0833333 97.4033333,50.932 L98.07,50.932 C98.07,24.868 76.9413333,3.73933333 50.878,3.73933333 C24.814,3.73933333 3.686,24.868 3.686,50.932 Z" id="Fill-4" fill-opacity="0.6" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
