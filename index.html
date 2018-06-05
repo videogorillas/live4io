@@ -210,13 +210,13 @@
                         <p>There is no media for this broadcast</p></div>
                     <div class="playerHolder" style="display: block;">
                         <div class="live4player live4player-muted live4player-meta-loaded live4player-playing">
-                            
                             <div class="live4player-base"></div>
-                            <video class="live4player-video" width="100%" height="auto" preload="auto"
+                            <video class="live4player-video" width="100%" height="auto" preload="auto" autoplay="autoplay" muted
                                    fullscreenenabled="fullscreenEnabled"
-                                   src="https://kote.videogorillas.com/vmir/live4io/live4-site.mp4"
-                                   src="http://kote.videogorillas.com/vmir/live4io/live4-site.WebM"
-                                   playsinline autoplay style="position: relative; top: -78px;">
+                                   poster="http://kote.videogorillas.com/vmir/live4io/thumb.png"
+                                   style="position: relative; top: -78px;">
+                                   <source src="http://kote.videogorillas.com/vmir/live4io/live4-site.WebM" type="video/webm" />
+                                   <source src="http://kote.videogorillas.com/vmir/live4io/live4-site.mp4" type="video/mp4" />
                             </video>
                             <div class="live4player-watermark"></div>
                             <div class="live4player-speed"></div>
