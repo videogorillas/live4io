@@ -1517,6 +1517,7 @@ ul.flex-list > li {
 .go_live_with_fb {
   color: rgba(255,255,255,1);
   font-size: 30px;
+  font-weight: bold;
   font-family: 'Cytia-Light', sans-serif;
   padding-top: 42px;
 }
