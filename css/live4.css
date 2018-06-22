@@ -505,7 +505,7 @@ ul.flex-list > li {
   font-size: 100px;
   color: white;
   line-height: 1;
-  padding: 15px;
+  padding: 0;
 }
 @media only screen and (max-width: 800px) {
   .is-main .mainpage .mainpage__motto {
@@ -550,7 +550,7 @@ ul.flex-list > li {
   z-index: 5;
   width: 345px;
   height: 341px;
-  background: url("/static/live4/img/nexus_iphone6_img.png") no-repeat;
+  background: url("../img/nexus_iphone6_img.png") no-repeat;
   -moz-background-size: 345px 341px 100%;
   -webkit-background-size: 345px 341px 100%;
   background-size: 345px 341px 100%;
@@ -600,7 +600,7 @@ ul.flex-list > li {
   }
 }
 .is-main .bottompart .app .lives__more i {
-  background: url("/static/live4/img/svg/play-round.svg") no-repeat center center;
+  background: url("/img/svg/play-round.svg") no-repeat center center;
   -moz-background-size: 30px 30px 100%;
   -webkit-background-size: 30px 30px 100%;
   background-size: 30px 30px 100%;
@@ -751,7 +751,9 @@ ul.flex-list > li {
 .is-main > .header .btn-nav {
   padding: 5px 10px;
   border-radius: 2px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-weight: bold;
   background: none;
 }
 .is-main > .header .btn-nav:hover,
@@ -923,7 +925,7 @@ ul.flex-list > li {
 .is-map .loader i {
   width: 43px;
   height: 43px;
-  background: url(/static/live4/img/loader.png) no-repeat 0 0;
+  background: url(/img/loader.png) no-repeat 0 0;
   display: inline-block;
   -webkit-animation: rotate 1s linear infinite;
   -moz-animation: rotate 1s linear infinite;
@@ -975,7 +977,7 @@ ul.flex-list > li {
   margin: 0 13px 0 0;
   width: 10px;
   height: 10px;
-  background: url(/static/live4/img/loader10x.png) no-repeat 0 0;
+  background: url(/img/loader10x.png) no-repeat 0 0;
   display: inline-block;
   -webkit-animation: rotate 1s linear infinite;
   -moz-animation: rotate 1s linear infinite;
@@ -1006,7 +1008,7 @@ ul.flex-list > li {
   background: #0079FF;
 }
 .lives .btn-more i {
-  background: url("/static/live4/img/svg/dots.svg") no-repeat 0 0;
+  background: url("/img/svg/dots.svg") no-repeat 0 0;
   -moz-background-size: 36px 8px 100%;
   -webkit-background-size: 36px 8px 100%;
   background-size: 36px 8px 100%;
@@ -1073,7 +1075,7 @@ ul.flex-list > li {
   position: absolute;
   left: 0;
   top: 0;
-  background: url("/static/live4/img/icons/time_ago_icon.svg") no-repeat 0 0;
+  background: url("/img/icons/time_ago_icon.svg") no-repeat 0 0;
   -moz-background-size: 20px 17px 100%;
   -webkit-background-size: 20px 17px 100%;
   background-size: 20px 17px 100%;
@@ -1098,7 +1100,7 @@ ul.flex-list > li {
   position: absolute;
   left: 0;
   top: 0;
-  background: url("/static/live4/img/icons/views_icon.svg") no-repeat 0 0;
+  background: url("/img/icons/views_icon.svg") no-repeat 0 0;
   background-size: contain;
   width: 22px;
   height: 17px;
@@ -1120,12 +1122,12 @@ ul.flex-list > li {
   width: 100%;
 }
 .live .live__link.embed__link:before {
-  content: url('/static/live4/img/icons/embed.svg');
+  content: url('/img/icons/embed.svg');
   background: none;
   color: #0079FF;
 }
 .live .live__link.stream__link:before {
-  content: url('/static/live4/img/icons/link_icon.svg');
+  content: url('/img/icons/link_icon.svg');
   color: #0079FF;
 }
 .live .live__link:before {
@@ -1139,7 +1141,7 @@ ul.flex-list > li {
   position: absolute;
   left: 0px;
   top: 2px;
-  background: url("/static/live4/img/svg/youtubeicn.svg") no-repeat 0 0;
+  background: url("/img/svg/youtubeicn.svg") no-repeat 0 0;
   background-size: contain;
   width: 20px;
   height: 19px;
@@ -1297,7 +1299,6 @@ ul.flex-list > li {
 }
 .player {
   position: relative;
-  cursor: pointer;
 }
 .player .play__btn {
   position: absolute;
@@ -1305,7 +1306,7 @@ ul.flex-list > li {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(/static/live4/img/svg/play-button.svg) no-repeat 50% 50%;
+  background: url(/img/svg/play-button.svg) no-repeat 50% 50%;
   background-size: 100px 100px;
   pointer-events: none;
 }
@@ -1513,6 +1514,13 @@ ul.flex-list > li {
     width: 100%;
   }
 }
+.go_live_with_fb {
+  color: rgba(255,255,255,1);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Cytia-Light', sans-serif;
+  padding-top: 42px;
+}
 .footer {
   text-align: left;
   font-size: 10px;
@@ -1532,7 +1540,7 @@ ul.flex-list > li {
   color: inherit;
 }
 .footer .footer__logo {
-  background: url("/static/live4/img/svg/vgb.svg") no-repeat 0 0;
+  background: url("/img/svg/vgb.svg") no-repeat 0 0;
   -moz-background-size: 41px 21px 100%;
   -webkit-background-size: 41px 21px 100%;
   background-size: 41px 21px 100%;
