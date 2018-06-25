@@ -1522,6 +1522,10 @@ ul.flex-list > li {
   font-family: 'Cytia-Light', sans-serif;
   padding-top: 42px;
 }
+.join_fb img {
+  width: auto;
+  height: 70px;
+}
 .footer {
   text-align: left;
   font-size: 10px;
