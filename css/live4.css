@@ -650,6 +650,7 @@ ul.flex-list > li {
   padding-right: 0 !important;
 }
 .header #navs .left-nav {
+  font-size: 21px;
   display: flex;
   list-style: none;
   margin-bottom: 0;
