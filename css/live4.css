@@ -104,6 +104,13 @@ body {
 body.is-main {
   padding-top: 0;
 }
+.go_live_with_fb {
+    color: rgba(255,255,255,1);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cytia-Light', sans-serif;
+    padding-top: 42px;
+}
 @media only screen and (max-width: 720px) {
   body {
     padding-top: 70px;
@@ -507,7 +514,15 @@ ul.flex-list > li {
   line-height: 1;
   padding: 0;
 }
+@media only screen and (max-width: 880px) {
+  .row .join_fb img {
+    height: auto;
+  } 
+}
 @media only screen and (max-width: 800px) {
+  #navs a {
+    font-size: 15px;
+  }
   .is-main .mainpage .mainpage__motto {
     font-size: 5em;
   }
@@ -521,6 +536,11 @@ ul.flex-list > li {
 @media only screen and (max-width: 640px) {
   .is-main .mainpage .mainpage__motto {
     font-size: 3.8em;
+  }
+}
+@media only screen and (max-width: 570px) {
+  #navs a {
+    font-size: 12px;
   }
 }
 .is-main .bottompart {
@@ -625,6 +645,8 @@ ul.flex-list > li {
 @media only screen and (max-width: 720px) {
   .is-main .bottompart .app .app__link {
     position: static;
+    padding: 20px 0;
+    text-align: left;
   }
 }
 .tags-thumbs > li {
@@ -672,32 +694,35 @@ ul.flex-list > li {
   body:not(.is-main) .header #navs .left-nav li {
     float: none;
   }
-  body:not(.is-main) .header #navs .left-nav li:not(.active) {
-    display: none;
+  /*body:not(.is-main) .header #navs .left-nav li:not(.active) {*/
+    /*display: none;*/
+  /*}*/
+  body:not(.is-main) .header #navs ul {
+    flex-direction: column;
   }
   body:not(.is-main) .header #navs .left-nav li.active .btn-nav {
     position: relative;
   }
-  body:not(.is-main) .header #navs .left-nav li.active .btn-nav:after {
-    font-family: 'icomoon';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    content: '\f0d7';
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    padding-right: 6px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+  /*body:not(.is-main) .header #navs .left-nav li.active .btn-nav:after {*/
+    /*font-family: 'icomoon';*/
+    /*speak: none;*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*font-variant: normal;*/
+    /*text-transform: none;*/
+    /*line-height: 1;*/
+    /*!* Better Font Rendering =========== *!*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+    /*content: '\f0d7';*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*padding-right: 6px;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+  /*}*/
   body:not(.is-main) .header #navs .second-nav {
     display: none;
   }
@@ -1251,6 +1276,9 @@ ul.flex-list > li {
   .live > .columns:first-child {
     padding-right: 0.9375em;
   }
+  .go_live_with_fb {
+    font-size: 24px;
+  }
 }
 @media only screen and (max-width: 640px) {
   .live {
@@ -1515,12 +1543,19 @@ ul.flex-list > li {
     width: 100%;
   }
 }
-.go_live_with_fb {
-  color: rgba(255,255,255,1);
-  font-size: 30px;
-  font-weight: bold;
-  font-family: 'Cytia-Light', sans-serif;
-  padding-top: 42px;
+@media only screen and (max-width: 880px) {
+  .go_live_with_fb {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .go_live_with_fb {
+    font-size: 18px;
+  }
+}
+.join_fb img {
+  width: auto;
+  height: 70px;
 }
 .footer {
   text-align: left;
