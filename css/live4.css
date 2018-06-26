@@ -673,6 +673,7 @@ ul.flex-list > li {
 }
 .header #navs .left-nav {
   font-size: 21px;
+  display: -webkit-flex;
   display: flex;
   list-style: none;
   margin-bottom: 0;
@@ -698,6 +699,7 @@ ul.flex-list > li {
     /*display: none;*/
   /*}*/
   body:not(.is-main) .header #navs ul {
+    -webkit-flex-direction: row-reverse;
     flex-direction: column;
   }
   body:not(.is-main) .header #navs .left-nav li.active .btn-nav {
