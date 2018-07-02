@@ -690,9 +690,6 @@ ul.flex-list > li {
   .is-main .header #navs .left-nav li {
     float: left;
   }
-  .is-main .header #navs ul {
-    flex-direction: column;
-  }
 }
 @media only screen and (max-width: 720px) {
   body:not(.is-main) .header #navs .left-nav li {
