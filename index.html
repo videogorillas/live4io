@@ -16,7 +16,6 @@
     <meta property="og:description"
           content="Share your emotions, adrenaline and delight live with the world. All you need is your GoPro camera, Apple or Android device. Live LIVE">
     <style type="text/css">
-
     .fb_reset {
         background: none;
         border: 0;
@@ -210,11 +209,11 @@
                     <div class="playerHolder" style="display: block;">
                         <div class="live4player live4player-muted live4player-meta-loaded live4player-playing">
                             <div class="live4player-base"></div>
-                            <video class="live4player-video" width="100%" height="auto" preload="auto" autoplay="autoplay" muted loop
-                                   fullscreenenabled="fullscreenEnabled"
-                                   src="https://kote.videogorillas.com/vmir/live4io/live4-site.webm" type="video/webm"
+                            <video class="live4player-video" preload="auto" autoplay muted loop width="100%" height="auto" fullscreenenabled="fullscreenEnabled"
                                    poster="https://kote.videogorillas.com/vmir/live4io/thumb.png"
                                    style="position: relative;">
+                                <source src="https://kote.videogorillas.com/vmir/live4io/live4-site.mp4" type="video/mp4">
+                                <source src="https://kote.videogorillas.com/vmir/live4io/live4-site.webm" type="video/webm">
                             </video>
                             <div class="live4player-watermark"></div>
                             <div class="live4player-speed"></div>
@@ -295,6 +294,12 @@
     </div>
 </div>
 <div class="fb-root"></div>
-
+<script type="text/javascript">
+    var iPhone = ['iPhone'].indexOf(navigator.platform) >= 0;
+    if (iPhone) {
+        var videoEl = document.querySelector(".live4player-video");
+        videoEl.setAttribute("controls", true);
+    }
+</script>
 </body>
 </html>
