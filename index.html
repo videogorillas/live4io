@@ -183,8 +183,8 @@
                     <div class="playerHolder" style="display: block;">
                         <div class="live4player live4player-muted live4player-meta-loaded live4player-playing">
                             <div class="live4player-base"></div>
-                            <video class="live4player-video" preload="auto" autoplay muted playsinline loop width="100%" height="auto" fullscreenenabled="fullscreenEnabled"
-                                   poster="https://kote.videogorillas.com/vmir/live4io/thumb.png"
+                            <video class="live4player-video" preload="auto" autoplay muted loop width="100%" height="auto" fullscreenenabled="fullscreenEnabled"
+                                   poster="https://kote.videogorillas.com/vmir/live4io/thumb.jpg"
                                    style="position: relative;">
                                 <source src="https://kote.videogorillas.com/vmir/live4io/live4-site.mp4" type="video/mp4">
                                 <source src="https://kote.videogorillas.com/vmir/live4io/live4-site.webm" type="video/webm">
@@ -244,7 +244,7 @@
                    target="_blank">
                     <img src="img/svg/google_play_btn.svg">
                 </a>
-                <a href="https://goo.gl/x5iN2U" target="_blank" class="app_appstore">
+                <a href="https://goo.gl/x5iN2U" target="_blank">
                     <img src="img/svg/app_store_btn.svg">
                 </a>
             </div>
@@ -271,13 +271,10 @@
 </div>
 <div class="fb-root"></div>
 <script type="text/javascript">
-    var userAgent = navigator.userAgent.toLowerCase();
-    var isAndroid = userAgent.indexOf("android") > -1;
-    var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
-    if(isAndroid) {
-        document.querySelector(".app_appstore").style.display = "none";
-    } else if (isIOs) {
-        document.querySelector(".app__googleplay").style.display = "none";
+    var iPhone = ['iPhone'].indexOf(navigator.platform) >= 0;
+    if (iPhone) {
+        var videoEl = document.querySelector(".live4player-video");
+        videoEl.setAttribute("controls", true);
     }
 </script>
 </body>
