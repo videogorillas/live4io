@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <nav class="nav">
-      <div class="nav-container">
-        <a href="{{ site.baseurl }}/blog">
-          <h2 class="nav-title">{{ site.title }}</h2>
-        </a>
-      </div>
+<body>
+<div class="header">
+    <nav class="row">
+        <div class="small-2 column">
+            <a href="/index" class="header__logo">
+                <img src="/img/logo.svg" id="live4logo"></a></div>
+        <section id="navs" class="small-5 column">
+            <ul class="inline-list left-nav small-right">
+                <li class="active">
+                    <a href="/blog" class="btn-nav">Blog</a>
+                </li>
+                <li>
+                    <a href="/start" class="btn-nav">Quick Start</a>
+                </li>
+                <li>
+                    <a href="/policy" class="btn-nav">Privacy policy</a>
+                </li>
+            </ul>
+        </section>
+        <div class="small-5 column store-btns">
+            <a href="https://play.google.com/store/apps/details?id=com.vg.goprolive" class="google_play_btn"
+               target="_blank">
+                <img src="/img/buy/google_play_btn_blue.svg" class="img-responsive"></a>
+            <a href="https://goo.gl/x5iN2U" class="app_store_btn" target="_blank">
+                <img src="/img/buy/app_store_btn_blue.svg" class="img-responsive">
+            </a>
+        </div>
     </nav>
+</div>
 
-    <main>
-      {{ content }}
-    </main>
+<main class="content">
+    {{ content }}
+</main>
 
-    <footer>
+<footer>
       <span>
         &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}.
       </span>
-    </footer>
-  </body>
+</footer>
+</body>
 </html>
