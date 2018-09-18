@@ -1,2 +1,4 @@
 .idea
-.gitignore
+/blog/.sass-cache/
+/blog/_site/
+/blog/Gemfile.lock
