@@ -1,0 +1,31 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if page.title == "Home" %}
+    <meta name="description" content="{{ site.description }}">
+  {% endif %}
+  <meta author="VideoGorillas LLC">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link size="64x64" rel="shortcut icon" href="/img/icons/favicon.ico">
+
+  <meta property="fb:app_id" content="561271243943352">
+  <meta property="og:site_name" content="LIVE4">
+  <meta property="og:url" content="https://www.live4.io/blog">
+  <meta property="og:site_name" content="LIVE4">
+  <meta apple-itunes-app="app-id=919921242">
+  <!-- RSS -->
+  {% feed_meta %}
+</head>
