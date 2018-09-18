@@ -915,6 +915,9 @@ ul.flex-list > li {
 .header .header__live a:focus {
   color: #fff;
 }
+.terms-and-conditions_text {
+  padding: 20px;
+}
 .is-map {
   padding-top: 0;
 }
