@@ -17,7 +17,7 @@ title: Live4 Blog
 email: your-email@example.com
 description: Share your emotions, adrenaline and delight live with the world. All you need is your GoPro camera, Apple or Android device. Live LIVE
 baseurl: "" # the subpath of your site, e.g.
-url: "https://www.live4.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  videogorillas
 
 # Build settings
@@ -35,8 +35,9 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:title
+permalink:      /blog/:title
 paginate:       5
+paginate_path: "/blog/page:num/"
 
 author:
   name: "Live4"
