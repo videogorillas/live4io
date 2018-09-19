@@ -37,4 +37,4 @@ And you're all set! Head over to http://127.0.0.1:4000/ to see your site in acti
 
 ## GitHub Pages
 
-pull request to `gh-pages` branch
+pull request to `master` branch
