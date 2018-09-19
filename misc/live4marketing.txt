@@ -1,0 +1,166 @@
+esps
+media buy
+
+email
+behavior triggered email automation
+
+push notification - we have a new version
+
+change pic to display hero 4, hero 3
+pay bloggers
+reviews
+affiliate based on downloads
+
+roadmap (brand, media, marketing, hz)
+new version
+what are we doing when
+communicate plan options
+
+1. we are alive
+2. we'll update you every x time
+
+KPIs
+downloads 300k active 30k paid
+successful stream
+paid subscription
+
+anti KPIs
+unsubscribe
+fail to connect camera (email - nice girl connects to camera)
+uninstall
+
+
+UI tweak: countdown when connecting
+UI tweak: post "Streamed with https://live4.io" should point to some trackable url like "https://live4.io/?uid=$ololo$gagaga"
+
+TODO:
+
+fb page subs paid post + 41k emails:
+- we are alive 
+- thats what we are going to do
+- two links to download 
+- subscribe to our fb page
+
+
+google
+create a blog for landing pages from google
+buy searches for how to questions
+get listed on "ehow"
+get listed on "top10 apps for gopro"
+
+how to stream from your gopro hero 3 to facebook live
+ - no hardware required
+ - no extra carrier plan required
+ - supported resolutions
+
+how to stream from your gopro hero 4 to facebook live
+
+how to stream from your gopro hero session to facebook live
+
+how to stream from your gopro hero 5 to facebook live
+
+how to stream from your gopro hero 6 to facebook live
+
+how to stream from your gopro hero plus to facebook live
+how to stream from your gopro hero 2018 to facebook live
+
+how to stream from your gopro hero 2014 to facebook live
+
+
+why i cant lock screen when streaming from an iphone
+why stream interrupts when streaming from an iphone
+how to live stream to public or friends only
+what is the maximum length of a stream on facebook live
+
+split FAQ into multiple articles
+port FAQ to blog
+I can't find though is how much data is used going live.
+Permissions
+Supported resolutions
+"Stream terminated. Too many files on SD card in GoPro camera" error
+Glitches, broken frames during the stream with Hero 5, Hero 5 session, Hero 6
+My live stream interrupts for no reason
+What resolution is streamed to Facebook?
+I see “poor connection” message during the stream
+When GoPro camera is connected via WiFi to the Android device - internet connection stops working. How do you manage to stream live?
+LIVE4 application does not support “one button” mode
+
+
+announce new (beta) versions
+
+
+youtube
+marina ok
+crazy-er edit
+
+
+influencers
+
+fb? youtube? vloggers
+micbergsma
+VidProMom - 25k subs
+FunForLouis - 2m subs
+
+publisher network?
+- reviews?
+- banners 
+- preroll, postroll videos?
+
+
+
+find youtube/fb gopro related (athletics?) influencers
+- explainer blog post for people trying live4 first time 
+
+
+other:
+restream.io
+create landing page
+
+
+
+blogger for live4
+content writer
+
+
+misc notes:
+messaging
+product/services aid in:
+- survive
+- thrive
+- be accepted
+- find love
+- achieve an aspirational identity
+- bond with a tribe that will defend them (physically or socially)
+mistake2
+- dont burn too many calories - simple messaging
+
+
+trackable
+measurable
+compelling headlines and sales copy
+specific audience/niche
+specific offer 
+demands a response - call to action
+multi-step, short-term follow-up - "irresistible offer" #2, time or quantity limit
+maintenance followup for "slow"
+
+
+1 page marketing plan
+
+my target market
+
+- owners of gopro with facebook account and 4g internet access via their mobile phone
+
+my message to my target market
+
+- go live on facebook with your gopro
+
+media i will use to reach my target market
+
+- facebook ads 
+- email to old live4 users
+- behavior triggered emails
+
+my lead capture system
+
+- 

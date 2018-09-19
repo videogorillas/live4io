@@ -1,0 +1,1 @@
+# Update GoPro Hero3 firmware to stream

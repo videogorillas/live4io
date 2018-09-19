@@ -1,0 +1,25 @@
+In the latest version (2.0) of the app we are enabling cellular (3G/4G) connection on your phone as well as managing the available bandwidth on the network to enable streaming even on the most unreliable networks. Please update to the latest version and let us know if it still doesn't work for you. If it does - please update the review you gave us.
+
+I know the 1.0 version of LIVE4 GoPro wasn't great, I am not proud of it either
+We decided to start from scratch, rewrite the app to give it a new life. In the latest version (2.0) we fixed over a thousand bugs and stability issues. Give 2.0 a chance, if it still doesn't work, please write directly to me at alex@live4.io
+Alex LIVE4 Founder
+
+In the latest version (2.0) of the app we are enabling cellular (3G/4G) connection on your phone as well as managing the available bandwidth on the network to enable streaming even on the most unreliable networks. Please update to the latest version and let us know if it still doesn't work for you. If it does - please update the review you gave us.
+
+
+I know download sizes of apps can be ridiculous. This is not what we want for LIVE4. That's why
+In the latest version (2.0) we reduced the size to 14MB which even on 3G network should download pretty fast.
+
+Да, версия 1.0 висла и была ужасной, я не горжусь ей.
+Мы выпустили версию 2.0, починили больше 1000 проблем. Дайте шанс второй версии, если не будет работать - пишите мне напрямую на alex@videogorillas.com. Я лично сделаю все чтобы у вас все работало.
+Саша, основатель LIVE4
+
+В версии 2.0 мы включаем LTE/3G/4G и WiFi одновременно из самого приложения. Попробуйте, если не заработает пишите мне лично на alex@videogorillas.com
+Александр - основатель LIVE4 
+
+Так, Андрію, версія 1.0 дуже погано працювала (коли працювала) я не пишаюся нею.
+Але ми вирішили переписати все з нуля, виправили понад тисячу проблем з додатком, та щойно виклали нову версію 2.0. Дайте їй шанс. Якщо не буде працювати - напишіть безпосередньо мені на alex@videogorillas.com
+Сашко засновник LIVE4
+
+
+We rewrote the app from scratch and released version 2.0 it has support for gopro 3, 4, 5, 6, hero+ and session. Give it a try and let us know if it doesn't work. If it does - please update your review so people know it works now.

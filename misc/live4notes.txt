@@ -1,0 +1,65 @@
+https://baremetrics.com/blog/medium-back-to-blog
+https://www.facebook.com/business/news/bring-brands-and-products-to-life-with-instant-experience
+https://www.wordstream.com/blog/ws/2017/02/16/content-syndication
+https://www.wowza.com/blog/youre-crazy-not-to-be-facebook-live-streaming
+
+
+Fix About live4 
+Сделать группу из "особо приближенных", "бета тестеров" и тд?
+
+
+Найти картинку на самую простую рекламу которая бы объясняла что приложение делает :-\
+Может видео?
+- Я Марина вот как я пользую ливеч 
+
+"Install now" ведет на страницу приложения в аппсторах 
+
+простая картинка:
+гопрошка
+телефон (андроид И айфон)
+пост на фб
+
+определить когда видно логин
+
+марина с вейком
+яковенко на мотке
+митя на велике
+
+душещипательная история - я очень хотел стримить свои прыжки 
+бренд стори 
+
+переписать описание приложения на аппсторах
+
+поменять классификацию приложения в аппсторах
+
+где мои $30???
+https://business.facebook.com/settings/apps?business_id=266405030625294
+
+checklist before release
+
+
+
+идея видео для аппстора
+гопро на белом фоне
+женская рука конектит вайфай
+включает апу
+показывается превью
+показывает фб пост
+
+long term
+посмотреть какая ситуация с гопро и фб в китае
+перевести на китайский?
+
+iOS background streaming
+https://github.com/cisco/openh264
+software transcode with openh264
+- measure cpu usage during realtime transcode of 480p on iphone 6-8
+- measure max fps when transcoding of 480p on iphone 6-8
+- measure cpu usage when transcoding at different bitrates. gradually increase bitrate from w*h*2 to w*h*6
+- transcode on CPU all the time or only when in background?
+
+
+ios test buffering
+ios j2objc to swift?
+
+enable/disable network proxy config
