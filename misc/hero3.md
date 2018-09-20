@@ -1,6 +1,6 @@
 # How to stream from your GoPro HERO 3 to Facebook LIVE?
 
-You can stream live from your GoPro HERO 3 White, HERO 3 Silver, HERO 3 Black, HERO 3+ Silver, HERO 3+ Black all you need is your phone and LIVE4 GoPro app.
+You can stream live from your GoPro HERO3 White, HERO3 Silver, HERO3 Black, HERO3+ Silver, HERO3+ Black all you need is your phone and LIVE4 GoPro app.
 No special hardware or extra carrier plan needed.
 
 ## TODO photos
@@ -61,3 +61,106 @@ No special hardware or extra carrier plan needed.
 
 ## see how much data you are using to live stream
   - you can see how much data is being used by LIVE4 to stream live in stats bar at the bottom of the screen 
+  
+## Supported resolutions when streaming from GoPro HERO3 
+
+|Model|Resolution|FPS|Stream Resolution|Stream FPS|
+|-----|----------|---|-----------------|----------|
+HERO3 White|960|30|240|30
+HERO3 White|1080|25|240|25
+HERO3 White|480|60|240|30
+HERO3 White|1080|30|240|30
+HERO3 White|960|25|240|25
+HERO3 White|720|30|240|30
+HERO3 White|720|60|240|30
+HERO3 White|720|25|240|25
+HERO3 White|480|50|240|25
+HERO3 White|720|50|240|25
+HERO3 Silver|1080|25|240|25
+HERO3 Silver|720|120|N/A|N/A
+HERO3 Silver|1080|48|240|24
+HERO3 Silver|1080|24|240|24
+HERO3 Silver|1440|48|N/A|N/A
+HERO3 Silver|720|60|240|30
+HERO3 Silver|4K|15|N/A|N/A
+HERO3 Silver|2.7K|25|N/A|N/A
+HERO3 Silver|4KCinema|12|N/A|N/A
+HERO3 Silver|1440|30|240|30
+HERO3 Silver|2.7K|30|N/A|N/A
+HERO3 Silver|1440|24|240|24
+HERO3 Silver|960|48|240|24
+HERO3 Silver|1080|50|240|25
+HERO3 Silver|960|100|N/A|N/A
+HERO3 Silver|1440|25|240|25
+HERO3 Silver|1080|30|240|30
+HERO3 Silver|4K|13|N/A|N/A
+HERO3 Silver|2.7KCinema|24|N/A|N/A
+HERO3 Silver|1080|60|240|30
+HERO3 Silver|720|100|N/A|N/A
+HERO3 Silver|720|50|240|25
+HERO3 Black|1080|25|240|25
+HERO3 Black|720|120|N/A|N/A
+HERO3 Black|1080|48|240|24
+HERO3 Black|1080|24|240|24
+HERO3 Black|1440|48|N/A|N/A
+HERO3 Black|720|60|240|30
+HERO3 Black|4K|15|N/A|N/A
+HERO3 Black|2.7K|25|N/A|N/A
+HERO3 Black|4KCinema|12|N/A|N/A
+HERO3 Black|1440|30|240|30
+HERO3 Black|2.7K|30|N/A|N/A
+HERO3 Black|1440|24|240|24
+HERO3 Black|960|48|240|24
+HERO3 Black|1080|50|240|25
+HERO3 Black|960|100|N/A|N/A
+HERO3 Black|1440|25|240|25
+HERO3 Black|1080|30|240|30
+HERO3 Black|4K|13|N/A|N/A
+HERO3 Black|2.7KCinema|24|N/A|N/A
+HERO3 Black|1080|60|240|30
+HERO3 Black|720|100|N/A|N/A
+HERO3 Black|720|50|240|25
+HERO3+ Silver|960|30|240|30
+HERO3+ Silver|1080|25|240|25
+HERO3+ Silver|720|120|240|15
+HERO3+ Silver|480|60|240|30
+HERO3+ Silver|720|30|240|30
+HERO3+ Silver|720|60|240|30
+HERO3+ Silver|1080|50|240|25
+HERO3+ Silver|480|100|240|25
+HERO3+ Silver|960|60|240|30
+HERO3+ Silver|1080|30|240|15
+HERO3+ Silver|960|25|240|25
+HERO3+ Silver|960|50|240|25
+HERO3+ Silver|1080|60|240|12
+HERO3+ Silver|720|100|240|25
+HERO3+ Silver|720|25|240|25
+HERO3+ Silver|480|120|240|30
+HERO3+ Silver|480|50|240|25
+HERO3+ Silver|720|50|240|25
+HERO3+ Black|720|48|240|24
+HERO3+ Black|1080|48|N/A|N/A
+HERO3+ Black|1080|24|240|24
+HERO3+ Black|720|60|240|30
+HERO3+ Black|720|100|N/A|N/A
+HERO3+ Black|2.7K|30|N/A|N/A
+HERO3+ Black|960|48|240|24
+HERO3+ Black|960|100|N/A|N/A
+HERO3+ Black|1080|60|N/A|N/A
+HERO3+ Black|960|60|240|30
+HERO3+ Black|1080|30|240|30
+HERO3+ Black|4K|13|N/A|N/A
+HERO3+ Black|960|50|240|25
+HERO3+ Black|720|50|240|25
+HERO3+ Black|1440|24|240|24
+HERO3+ Black|2.7KCinema|24|N/A|N/A
+HERO3+ Black|1080|25|240|25
+HERO3+ Black|720|120|N/A|N/A
+HERO3+ Black|1440|48|N/A|N/A
+HERO3+ Black|480|240|N/A|N/A
+HERO3+ Black|4K|15|N/A|N/A
+HERO3+ Black|2.7K|25|N/A|N/A
+HERO3+ Black|4KCinema|12|N/A|N/A
+HERO3+ Black|1440|30|240|30
+HERO3+ Black|1080|50|240|25
+HERO3+ Black|1440|25|240|25
