@@ -1,0 +1,3 @@
+- "poor connection" - add "why am i seeing this" overlay
+- UI tweak: countdown when connecting (connecting to gopro in 42sec... 41sec... 40sec...)
+- post "Streamed with https://live4.io" should point to some trackable url like "https://live4.io/?uid=olologagaga"

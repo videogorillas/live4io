@@ -1,0 +1,36 @@
+# TODO
+- gopro3 + iphone + fb post
+- gopro3 + android + fb post
+- gopro4 + iphone + fb post
+- gopro4 + android + fb post
+- hero+ + iphone + fb post
+- hero+ + android + fb post
+- gopro5/6/hero2018 + iphone + fb post
+- gopro5/6/hero2018 + android + fb post
+- gopro session4/5 + iphone + fb post
+- gopro session4/5 + android + fb post
+- turn on wifi on hero3 steps (photo and video)
+- turn on wifi on hero4 steps (photo and video)
+- turn on wifi on hero5/6/2018 steps (photo and video)
+- connect to gopro wifi iphone
+- connect to gopro wifi android
+- live4 splash screen iphone
+- live4 splash screen android
+- connecting to camera screen iphone
+- connecting to camera screen android
+- preview screen iphone
+- preview screen android
+- permissions screen iphone
+- permissions screen android
+- prepare screen iphone
+- prepare screen android
+- live timer screen iphone
+- live timer screen android
+- lock screen timer android
+- lock screen notification iphone
+- facebook post screenshot (reactions, comments)
+- facebook post screencast gif (reactions, comments)
+- app comments screenshot iphone
+- app comments screenshot android
+- data usage screenshot iphone (arrow points at usage OR zoomed in area)
+- data usage screenshot android (arrow points at usage OR zoomed in area)
