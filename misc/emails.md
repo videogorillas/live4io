@@ -1,4 +1,6 @@
-emails - all emails are separate for iphone and android users
+# emails
+
+all emails should be separate for iphone and android users (different pictures)
 
 - onboarding email
   - hey you can do this with live4:

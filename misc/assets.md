@@ -34,3 +34,12 @@
 - app comments screenshot android
 - data usage screenshot iphone (arrow points at usage OR zoomed in area)
 - data usage screenshot android (arrow points at usage OR zoomed in area)
+- hero3 onboarding
+- hero session5 onboarding
+- hero session4 onboarding
+- hero5/6/2018 onboarding
+- video for website
+  - turn on gopro 5
+  - connect to iphone/android
+  - press red button
+  - show fb post with reactions and comments
