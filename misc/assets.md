@@ -14,26 +14,26 @@
 - turn on wifi on hero5/6/2018 steps (photo and video)
 - connect to gopro wifi iphone
 - connect to gopro wifi android
-- live4 splash screen iphone ![ios splash](/assets/ios_splash.jpg)
+- live4 splash screen iphone ![ios splash](/assets/ios_splash_framed.jpg)
 - live4 splash screen android
-- connecting to camera screen iphone ![ios connecting](/assets/ios_connecting.jpg)
+- connecting to camera screen iphone ![ios connecting](/assets/ios_connecting_framed.jpg)
 - connecting to camera screen android
-- preview screen iphone ![ios preview](/assets/ios_preview.jpg)
+- preview screen iphone ![ios preview](/assets/ios_preview_framed.jpg)
 - preview screen android
-- permissions screen iphone ![ios permissions](/assets/ios_pick_permission.jpg)
+- permissions screen iphone ![ios permissions](/assets/ios_pick_permission_framed.jpg)
 - permissions screen android
-- prepare screen iphone ![ios prepare](/assets/ios_prepare_streaming.jpg)
+- prepare screen iphone ![ios prepare](/assets/ios_prepare_streaming_framed.jpg)
 - prepare screen android
-- live timer screen iphone ![ios prepare](/assets/ios_live_counter.jpg)
+- live timer screen iphone ![ios prepare](/assets/ios_live_counter_framed.jpg)
 - live timer screen android
 - lock screen timer android
-- app background notification iphone ![ios app background](/assets/ios_background_notification.jpg)
-- lock screen notification iphone ![ios lock screen](/assets/ios_lock_screen1.jpg)
+- app background notification iphone ![ios app background](/assets/ios_background_notification_framed.jpg)
+- lock screen notification iphone ![ios lock screen](/assets/ios_lock_screen1_framed.jpg)
 - facebook post screenshot (reactions, comments)
 - facebook post screencast gif (reactions, comments)
-- app comments screenshot iphone ![ios comments](/assets/ios_comments.jpg)
+- app comments screenshot iphone ![ios comments](/assets/ios_comments_framed.jpg)
 - app comments screenshot android
-- data usage screenshot iphone (arrow points at usage OR zoomed in area) ![ios data usage](/assets/ios_data_upload.jpg)
+- data usage screenshot iphone (arrow points at usage OR zoomed in area) ![ios data usage](/assets/ios_data_upload_framed.jpg)
 - data usage screenshot android (arrow points at usage OR zoomed in area)
 - hero3 onboarding
 - hero session5 onboarding
