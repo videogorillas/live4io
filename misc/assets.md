@@ -14,25 +14,26 @@
 - turn on wifi on hero5/6/2018 steps (photo and video)
 - connect to gopro wifi iphone
 - connect to gopro wifi android
-- live4 splash screen iphone
+- live4 splash screen iphone ![ios splash](/assets/ios_splash.jpg)
 - live4 splash screen android
-- connecting to camera screen iphone
+- connecting to camera screen iphone ![ios connecting](/assets/ios_connecting.jpg)
 - connecting to camera screen android
-- preview screen iphone
+- preview screen iphone ![ios preview](/assets/ios_preview.jpg)
 - preview screen android
-- permissions screen iphone
+- permissions screen iphone ![ios permissions](/assets/ios_pick_permission.jpg)
 - permissions screen android
-- prepare screen iphone
+- prepare screen iphone ![ios prepare](/assets/ios_prepare_streaming.jpg)
 - prepare screen android
-- live timer screen iphone
+- live timer screen iphone ![ios prepare](/assets/ios_live_counter.jpg)
 - live timer screen android
 - lock screen timer android
-- lock screen notification iphone
+- app background notification iphone ![ios app background](/assets/ios_background_notification.jpg)
+- lock screen notification iphone ![ios lock screen](/assets/ios_lock_screen1.jpg)
 - facebook post screenshot (reactions, comments)
 - facebook post screencast gif (reactions, comments)
-- app comments screenshot iphone
+- app comments screenshot iphone ![ios comments](/assets/ios_comments.jpg)
 - app comments screenshot android
-- data usage screenshot iphone (arrow points at usage OR zoomed in area)
+- data usage screenshot iphone (arrow points at usage OR zoomed in area) ![ios data usage](/assets/ios_data_upload.jpg)
 - data usage screenshot android (arrow points at usage OR zoomed in area)
 - hero3 onboarding
 - hero session5 onboarding

@@ -2,7 +2,10 @@ https://baremetrics.com/blog/medium-back-to-blog
 https://www.facebook.com/business/news/bring-brands-and-products-to-life-with-instant-experience
 https://www.wordstream.com/blog/ws/2017/02/16/content-syndication
 https://www.wowza.com/blog/youre-crazy-not-to-be-facebook-live-streaming
-
+https://www.canva.com
+https://eclincher.com/blog/social-media-management-marketing-tools/
+# ls *png | xargs -n1 -I % convert % -background white -flatten  %.jpg
+# ls *png.jpg | while read line ;do  mv -v $line ${line/png.jpg/jpg} ;done
 
 Fix About live4 
 Сделать группу из "особо приближенных", "бета тестеров" и тд?
