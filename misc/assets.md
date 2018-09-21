@@ -15,17 +15,17 @@
 - connect to gopro wifi iphone
 - connect to gopro wifi android
 - live4 splash screen iphone ![ios splash](/assets/ios_splash_framed.jpg)
-- live4 splash screen android
+- live4 splash screen android ![android splash](/assets/android_splash_framed.jpg)
 - connecting to camera screen iphone ![ios connecting](/assets/ios_connecting_framed.jpg)
-- connecting to camera screen android
+- connecting to camera screen android ![android connecting](/assets/android_connecting_framed.jpg)
 - preview screen iphone ![ios preview](/assets/ios_preview_framed.jpg)
-- preview screen android
+- preview screen android ![android preview](/assets/android_preview_framed.jpg)
 - permissions screen iphone ![ios permissions](/assets/ios_pick_permission_framed.jpg)
-- permissions screen android
+- permissions screen android ![android permissions](/assets/android_pick_permission_framed.jpg)
 - prepare screen iphone ![ios prepare](/assets/ios_prepare_streaming_framed.jpg)
-- prepare screen android
+- prepare screen android ![android prepare](/assets/android_prepare_streaming_framed.jpg)
 - live timer screen iphone ![ios prepare](/assets/ios_live_counter_framed.jpg)
-- live timer screen android
+- live timer screen android ![android prepare](/assets/android_live_counter_framed.jpg)
 - lock screen timer android
 - app background notification iphone ![ios app background](/assets/ios_background_notification_framed.jpg)
 - lock screen notification iphone ![ios lock screen](/assets/ios_lock_screen1_framed.jpg)
