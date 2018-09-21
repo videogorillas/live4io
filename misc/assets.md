@@ -25,16 +25,17 @@
 - prepare screen iphone ![ios prepare](/assets/ios_prepare_streaming_framed.jpg)
 - prepare screen android ![android prepare](/assets/android_prepare_streaming_framed.jpg)
 - live timer screen iphone ![ios prepare](/assets/ios_live_counter_framed.jpg)
-- live timer screen android ![android prepare](/assets/android_live_counter_framed.jpg)
-- lock screen timer android
+- live timer screen android ![android timer](/assets/android_live_counter_framed.jpg)
+- lock screen timer android ![android lock](/assets/android_lock_screen1_framed.jpg)
+- notification timer android ![android notification](/assets/android_notification_framed.jpg)
 - app background notification iphone ![ios app background](/assets/ios_background_notification_framed.jpg)
 - lock screen notification iphone ![ios lock screen](/assets/ios_lock_screen1_framed.jpg)
 - facebook post screenshot (reactions, comments)
 - facebook post screencast gif (reactions, comments)
 - app comments screenshot iphone ![ios comments](/assets/ios_comments_framed.jpg)
-- app comments screenshot android
+- app comments screenshot android ![android comments](/assets/android_comments_framed.jpg) 
 - data usage screenshot iphone (arrow points at usage OR zoomed in area) ![ios data usage](/assets/ios_data_upload_framed.jpg)
-- data usage screenshot android (arrow points at usage OR zoomed in area)
+- data usage screenshot android (arrow points at usage OR zoomed in area) ![android data usage](/assets/android_data_upload_framed.jpg)
 - hero3 onboarding
 - hero session5 onboarding
 - hero session4 onboarding
