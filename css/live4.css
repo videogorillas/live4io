@@ -222,6 +222,8 @@ ul.flex-list > li {
 .policy {
   padding-left: 15px;
   font-family: 'Cytia', sans-serif;
+  display: block;
+  text-align: justify;
 }
 .policy h1 {
   font-size: 2rem;
