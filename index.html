@@ -189,10 +189,8 @@
                         <div class="live4player live4player-muted live4player-meta-loaded live4player-playing">
                             <div class="live4player-base"></div>
                             <video class="live4player-video" preload="auto" autoplay muted playsinline loop width="100%" height="auto" fullscreenenabled="fullscreenEnabled"
-                                   poster="https://kote.videogorillas.com/vmir/live4io/thumb.jpg"
-                                   style="position: relative;">
-                                <source src="https://kote.videogorillas.com/vmir/live4io/live4-site.mp4" type="video/mp4">
-                                <source src="https://kote.videogorillas.com/vmir/live4io/live4-site.webm" type="video/webm">
+                                   poster="/img/android-short-button1-captions.jpg"
+                                   style="position: relative;" src="/img/android-short-button1-captions.mp4">
                             </video>
                             <div class="live4player-watermark"></div>
                             <div class="live4player-speed"></div>
@@ -300,6 +298,8 @@ ga('send', 'pageview');
         document.querySelector(".app_appstore").style.display = "none";
     } else if (isIOs) {
         document.querySelector(".app__googleplay").style.display = "none";
+        document.querySelector("video").src = "/img/ios-short-button1-captions.mp4";
+        document.querySelector("video").poster = "/img/ios-short-button1-captions.jpg";
     }
 </script>
 </body>
