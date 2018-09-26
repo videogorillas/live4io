@@ -33,6 +33,10 @@ uninstall
 UI tweak: countdown when connecting
 UI tweak: post "Streamed with https://live4.io" should point to some trackable url like "https://live4.io/?uid=$ololo$gagaga"
 
+clear messaging
+
+Live Stream to your Facebook personal, public or group page
+
 TODO:
 
 fb page subs paid post + 41k emails:
@@ -47,25 +51,6 @@ create a blog for landing pages from google
 buy searches for how to questions
 get listed on "ehow"
 get listed on "top10 apps for gopro"
-
-how to stream from your gopro hero 3 to facebook live
- - no hardware required
- - no extra carrier plan required
- - supported resolutions
-
-how to stream from your gopro hero 4 to facebook live
-
-how to stream from your gopro hero session to facebook live
-
-how to stream from your gopro hero 5 to facebook live
-
-how to stream from your gopro hero 6 to facebook live
-
-how to stream from your gopro hero plus to facebook live
-how to stream from your gopro hero 2018 to facebook live
-
-how to stream from your gopro hero 2014 to facebook live
-
 
 why i cant lock screen when streaming from an iphone
 why stream interrupts when streaming from an iphone
