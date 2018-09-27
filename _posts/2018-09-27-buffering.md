@@ -4,6 +4,12 @@ title:  "Buffering"
 author: "LIVE4"
 ---
 
+### No or bad Internet connection? No Problem! LIVE4 has you covered.
+
+LIVE4 follows the no frame left behind policy even when live streaming on really bad or flaky internet connection. Read on to learn more.
+
+![data upload](/assets/android_data_upload_framed_small.jpg)
+
 **Q**: I started using LIVE4 to stream mostly mountain biking experience, love the concept of the app but I don't seem to understand the video buffering. I'd like to learn because there's usually no connection in the mountains.
 Do I need to continue feed until I get a good signal, or can I stop feed and keep connected? 
  
