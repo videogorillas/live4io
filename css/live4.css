@@ -220,7 +220,7 @@ ul.flex-list > li {
   }
 }
 .policy {
-  padding-left: 15px;
+  padding: 0 2em;
   font-family: 'Cytia', sans-serif;
   display: block;
   text-align: justify;
