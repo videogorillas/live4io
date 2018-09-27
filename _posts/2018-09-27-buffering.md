@@ -25,10 +25,10 @@ so we are doing our best to buffer video and audio frames until signal becomes a
 Facebook LIVE platform puts it's own restriction on the live video duration and connection drops. 
 It tolerates 5 minutes of no data delivered to Facebook from LIVE4 (or any other live streaming app or piece of hardware). 
 
-Therefore LIVE4 keep up to 5 minutes worth of video buffered until connection becomes available.
+Therefore LIVE4 keeps up to 5 minutes worth of video buffered until connection becomes available.
 
 The audience watching a stream from a publisher on a bad connection will most likely see just one interrupt - the first one. 
-When connection is down LIVE4 buffers video and soon as it's up it will upload most of the buffer in time less than it took to capture it. 
+When connection is down LIVE4 buffers video and as soon as it's up it will upload most of the buffer in time less than it took to capture it. 
 A 30 second buffer on a stable connection normally uploads in 10 or less seconds, this creates a budget of 20 seconds for other interrupts to happen.
 It does introduce delay equal to the duration of first internet connection outage, but we believe it's a better experience for both publishers and the audience.
 
