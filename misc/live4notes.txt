@@ -6,6 +6,7 @@ https://www.canva.com
 https://eclincher.com/blog/social-media-management-marketing-tools/
 https://developer.android.com/distribute/marketing-tools/device-art-generator
 https://www.hallaminternet.com/setting-campaign-url-tagging-google-analytics/
+https://developers.google.com/analytics/devguides/collection/android/v4/campaigns#google-play-url-builder
 
 # ls *png | while read line ;do  convert ${line} -background white -flatten ${line/png/jpg} ;done
 #
