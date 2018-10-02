@@ -549,7 +549,12 @@ ul.flex-list > li {
 }
 @media only screen and (max-width: 720px) {
   .is-main .bottompart {
-    /*padding-bottom: 100px;*/
+    padding-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .is-main .bottompart {
+    padding-bottom: 150px;
   }
 }
 .is-main .bottompart .app {
