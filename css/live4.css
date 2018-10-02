@@ -549,7 +549,7 @@ ul.flex-list > li {
 }
 @media only screen and (max-width: 720px) {
   .is-main .bottompart {
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
   }
 }
 .is-main .bottompart .app {
@@ -584,17 +584,15 @@ ul.flex-list > li {
     background: none;
     width: 100%;
   }
+  .is-main .bottompart .app .app__text {
+      padding-top: 48px;
+      padding-bottom: 48px;
+  }
 }
 .is-main .bottompart .app .app__text {
   font-size: 24px;
   line-height: 32px;
   color: #fff;
-}
-@media only screen and (max-width: 720px) {
-  .is-main .bottompart .app .app__text {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
 }
 @media only screen and (max-width: 640px) {
   .is-main .bottompart .app .app__text {
@@ -649,8 +647,14 @@ ul.flex-list > li {
     padding: 20px 0;
     text-align: center;
   }
+  .is-main .bottompart .app .app__link a img {
+    width: 210px;
+  }
   .join_fb {
       margin: 0 auto;
+  }
+  .footer {
+      font-size: 14px;
   }
 }
 .tags-thumbs > li {
