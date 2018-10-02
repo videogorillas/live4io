@@ -533,6 +533,13 @@ ul.flex-list > li {
     position: static;
     text-align: center;
   }
+  .is-main .mainpage .mainpage__motto {
+    width: max-content;
+    width: -webkit-max-content;
+    padding: 10px 0;
+    font-size: 24px !important;
+    font-weight: bold;
+  }
 }
 @media only screen and (max-width: 640px) {
   .is-main .mainpage .mainpage__motto {
