@@ -19,6 +19,7 @@ description: Share your emotions, adrenaline and delight live with the world. Al
 baseurl: "" # the subpath of your site, e.g.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  videogorillas
+host: 0.0.0.0
 
 # Build settings
 markdown:       kramdown
