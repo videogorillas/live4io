@@ -109,7 +109,6 @@ body.is-main {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Cytia-Light', sans-serif;
-    padding-top: 42px;
 }
 @media only screen and (max-width: 720px) {
   body {
@@ -519,7 +518,7 @@ ul.flex-list > li {
 @media only screen and (max-width: 880px) {
   .row .join_fb img {
     height: auto;
-  } 
+  }
 }
 @media only screen and (max-width: 800px) {
   #navs a {
@@ -533,6 +532,13 @@ ul.flex-list > li {
   .is-main .mainpage .mainpage__motto {
     position: static;
     text-align: center;
+  }
+  .is-main .mainpage .mainpage__motto {
+    width: max-content;
+    width: -webkit-max-content;
+    padding: 10px 0;
+    font-size: 24px !important;
+    font-weight: bold;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -550,11 +556,16 @@ ul.flex-list > li {
 }
 @media only screen and (max-width: 720px) {
   .is-main .bottompart {
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .is-main .bottompart {
+    padding-bottom: 150px;
   }
 }
 .is-main .bottompart .app {
-  padding: 38px 0;
+  padding: 38px 0 0 0;
   position: relative;
 }
 @media only screen and (max-width: 720px) {
@@ -567,7 +578,7 @@ ul.flex-list > li {
 }
 .is-main .bottompart .app .app__scr {
   position: absolute;
-  top: -180px;
+  top: -230px;
   right: 0px;
   z-index: 5;
   width: 345px;
@@ -585,17 +596,15 @@ ul.flex-list > li {
     background: none;
     width: 100%;
   }
+  .is-main .bottompart .app .app__text {
+      padding-top: 48px;
+      padding-bottom: 48px;
+  }
 }
 .is-main .bottompart .app .app__text {
   font-size: 24px;
   line-height: 32px;
   color: #fff;
-}
-@media only screen and (max-width: 720px) {
-  .is-main .bottompart .app .app__text {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
 }
 @media only screen and (max-width: 640px) {
   .is-main .bottompart .app .app__text {
@@ -641,14 +650,26 @@ ul.flex-list > li {
   top: 100%;
   padding-top: 10px;
 }
-.is-main .bottompart .app .app__link.onelink a img {
-  width: 80%;
+.is-main .bottompart .app .app__link .app_appstore img {
+  width: 142px;
+}
+.is-main .bottompart .app .app__link .google-play-store img {
+  width: 163px;
 }
 @media only screen and (max-width: 720px) {
   .is-main .bottompart .app .app__link {
     position: static;
     padding: 20px 0;
-    text-align: left;
+    text-align: center;
+  }
+  .is-main .bottompart .app .app__link a img {
+    width: 250px !important;
+  }
+  .join_fb {
+      margin: 0 auto;
+  }
+  .footer {
+      font-size: 14px;
   }
 }
 .tags-thumbs > li {
@@ -1553,16 +1574,24 @@ ul.flex-list > li {
 @media only screen and (max-width: 880px) {
   .go_live_with_fb {
     font-size: 21px;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 770px) {
   .go_live_with_fb {
     font-size: 18px;
+    text-align: center;
   }
+}
+.join_fb {
+  width: 50%;
 }
 .join_fb img {
   width: auto;
   height: 70px;
+}
+.bottom-text {
+    display: none;
 }
 .footer {
   text-align: left;
