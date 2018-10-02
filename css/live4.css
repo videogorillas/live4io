@@ -650,8 +650,11 @@ ul.flex-list > li {
   top: 100%;
   padding-top: 10px;
 }
-.is-main .bottompart .app .app__link.onelink a img {
-  width: 80%;
+.is-main .bottompart .app .app__link .app_appstore img {
+  width: 142px;
+}
+.is-main .bottompart .app .app__link .google-play-store img {
+  width: 163px;
 }
 @media only screen and (max-width: 720px) {
   .is-main .bottompart .app .app__link {
@@ -660,7 +663,7 @@ ul.flex-list > li {
     text-align: center;
   }
   .is-main .bottompart .app .app__link a img {
-    width: 210px;
+    width: 250px !important;
   }
   .join_fb {
       margin: 0 auto;

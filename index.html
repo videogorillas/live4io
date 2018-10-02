@@ -244,9 +244,9 @@
     <div class="app row">
         <div class="app__scr">
             <div class="app__link">
-                <a href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dmain_page_link%26utm_campaign%3Dshort_howto" class="app__googleplay"
+                <a class="google-play-store" href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dmain_page_link%26utm_campaign%3Dshort_howto" class="app__googleplay"
                    target="_blank">
-                    <img src="img/svg/google_play_btn.svg">
+                    <img src="img/buy/google-play-badge.png">
                 </a>
                 <a href="https://testflight.apple.com/join/Zfu5mnIx" target="_blank" class="app_appstore">
                     <img src="img/svg/app_store_btn.svg">
@@ -298,7 +298,7 @@ ga('send', 'pageview');
     if (isAndroid) {
         document.querySelector(".app_appstore").style.display = "none";
     } else if (isIOs) {
-        document.querySelector(".app__googleplay").style.display = "none";
+        document.querySelector(".google-play-store").style.display = "none";
         document.querySelector("video").src = "/img/ios-short-button1-captions.mp4";
         document.querySelector("video").poster = "/img/ios-short-button1-captions.jpg";
     }
