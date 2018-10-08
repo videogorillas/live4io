@@ -15,6 +15,9 @@ My LIVE4 connection with Facebook keeps dropping after starting the live recordi
 It would disconnect from the camera when my phone locked.
 My live stream interrupts for no reason after opening home screen.
 Today almost every time I went live it would drop the stream. What are some of the parameters that kick it out. Does having the GoPro app running help with better connection?
+I have a problem that is not having image if I click the on/off button of my iPhone. The steaming pauses. Is it supposed? Can’t I put the phone on my pocket and continue filming and streaming? 
+I really need to have the screen open?
+
 
 I tried going live tonight and using my hero 5 tonight. Unfortunately after 45 seconds it froze and never got connection back. I was racing karts and had my GoPro on my helmet and my phone in my pocket. The GoPro app still recorded everything which was nice. 
 Not sure why it would have froze unless my cell signal was not very strong. However others went live with just their phones on Facebook and had a solid cell connection all night. 
