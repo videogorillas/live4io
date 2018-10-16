@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LIVE4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <meta author="VideoGorillas LLC">
+    <meta apple-itunes-app="app-id=919921242">
+    <link rel="stylesheet" media="screen" href="css/normalize.css">
+    <link rel="stylesheet" media="screen" href="css/foundation.min.css">
+    <link rel="stylesheet" media="screen" href="css/live4.css">
+    <link size="64x64" rel="shortcut icon" href="img/icons/favicon.ico">
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <meta property="fb:app_id" content="561271243943352">
+    <meta property="og:site_name" content="LIVE4">
+    <meta property="og:url" content="http://live4.io/">
+    <meta property="og:site_name" content="LIVE4">
+    <meta property="og:image" content="http://live4.io/assets/android-play-store-feature-graphic.jpg">
+    <meta property="og:image:secure_url" content="https://live4.io/assets/android-play-store-feature-graphic.jpg">
+    <meta property="og:description" content="Stream LIVE from your GoPro to Facebook instantly. Only iPhone or Android needed.">
+    <style type="text/css">
+
+    .fb_reset > div {
+        overflow: hidden
+    }
+
+    .fb_link img {
+        border: none
+    }
+
+    @keyframes fb_transform {
+        from {
+            opacity: 0;
+            transform: scale(.95)
+        }
+        to {
+            opacity: 1;
+            transform: scale(1)
+        }
+    }
+
+    .fb_dialog_content .dialog_title > span {
+        background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+        float: left;
+        padding: 5px 0 7px 26px
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading iframe {
+        visibility: hidden
+    }
+
+    .fb_dialog_content .dialog_header table {
+        -webkit-font-smoothing: subpixel-antialiased;
+        height: 43px;
+        width: 100%
+    }
+
+    .fb_dialog_content .dialog_header .touchable_button input {
+        border: none;
+        background: none;
+        color: #fff;
+        font: 12px Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 2px -12px;
+        padding: 2px 6px 3px 6px;
+        text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0
+    }
+
+    @keyframes rotateSpinner {
+        0% {
+            transform: rotate(0deg)
+        }
+        100% {
+            transform: rotate(360deg)
+        }
+    }
+
+    .fb_iframe_widget span {
+        display: inline-block;
+        position: relative;
+        text-align: justify
+    }
+
+    .fb_iframe_widget iframe {
+        position: absolute
+    }
+
+    .fb_iframe_widget_fluid_desktop iframe {
+        min-width: 220px;
+        position: relative
+    }
+
+    .fb_hide_iframes iframe {
+        position: relative;
+        left: -10000px
+    }
+
+    .fb_iframe_widget_fluid span {
+        width: 100%
+    }
+
+    .fb_iframe_widget_loader iframe {
+        min-height: 32px;
+        z-index: 2;
+        zoom: 1
+    }
+
+    @keyframes fb_fade_out {
+        from {
+            opacity: 1
+        }
+        to {
+            opacity: 0
+        }
+    }
+
+    @keyframes fb_bounce_in {
+        0% {
+            opacity: 0;
+            transform: scale(.8, .8);
+            transform-origin: 100% 100%
+        }
+        10% {
+            opacity: .1
+        }
+        20% {
+            opacity: .2
+        }
+        30% {
+            opacity: .3
+        }
+        40% {
+            opacity: .4
+        }
+        50% {
+            opacity: .5
+        }
+        60% {
+            opacity: .6
+        }
+        70% {
+            opacity: .7
+        }
+        80% {
+            opacity: .8;
+            transform: scale(1.03, 1.03)
+        }
+        90% {
+        opacity: .9
+        }
+        100%
+        {
+            opacity: 1;
+            transform: scale(1, 1)
+        }
+    }
+    </style>
+</head>
+<body class="is-main is-responsive" cz-shortcut-listen="true">
+<div class="header">
+    <nav class="row">
+        <div class="small-2 column">
+            <a href="/" class="header__logo">
+                <img src="img/logo.svg" id="live4logo"></a></div>
+        <section id="navs" class="small-10 column">
+            <ul class="inline-list left-nav small-right">
+                <li>
+                    <a href="/start" class="btn-nav">Quick Start</a>
+                </li>
+                <li>
+                    <a href="/blog" class="btn-nav">Blog</a>
+                </li>
+                <li>
+                    <a href="/blog/faq" class="btn-nav">FAQ</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+</div>
+<div class="mainpage">
+    <div class="mainpage__video ">
+        <article style="">
+            <div class="mainpage__video" id="live_10152350145868045_GOPRO20150115193313MP4">
+                <div class="player">
+                    <div class="live4player-no-player" style="display:none">
+                        <p>Please update your web browser to the latest version to enjoy LIVE4 broadcasts</p></div>
+                    <div class="live4player-no-data" style="display:none">
+                        <p>There is no media for this broadcast</p></div>
+                    <div class="playerHolder" style="display: block;">
+                        <div class="live4player live4player-muted live4player-meta-loaded live4player-playing">
+                            <div class="live4player-base"></div>
+                            <video class="live4player-video" preload="auto" autoplay loop muted playsinline width="100%" height="auto" fullscreenenabled="fullscreenEnabled"
+                                   poster="img/android-short-button1-captions.jpg"
+                                   style="position: relative;" src="img/android-short-button1-captions.mp4">
+                            </video>
+                            <div class="live4player-watermark"></div>
+                            <div class="live4player-speed"></div>
+                            <div class="live4player-loading-screen">
+                                <div class="live4player-loading-screen-icon"></div>
+                            </div>
+                            <div class="live4player-navigation">
+                                <div class="live4player-navigation-progressbar">
+                                    <div class="live4player-navigation-progressbar-buffered">
+                                        <div style="left: 0%; width: 3.94352%;"></div>
+                                    </div>
+                                    <div class="live4player-navigation-progressbar-progress" style="width: 1.23642%;">
+                                        <i></i></div>
+                                </div>
+                                <div class="live4player-navigation-play"></div>
+                                <div class="live4player-navigation-pause"></div>
+                                <div class="live4player-navigation-mute">
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                </div>
+                                <div class="live4player-navigation-unmute">
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                </div>
+                                <div class="live4player-navigation-fson"></div>
+                                <div class="live4player-navigation-fsoff"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="error" style="display:none">
+                        <h2>Unknown error occured while build this page. Please try again by <b>reloading this
+                            page...</b></h2></div>
+                    <div class="error-notfound" style="display:none">
+                        <h2>No streams found. Go
+                            <a href="/stream">Explore...</a></h2></div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <div class="mainpage__motto row">Live LIVE</div>
+</div>
+<div class="row go_live_with_fb">Go LIVE to Facebook with your GoPro camera</div>
+<div class="bottompart">
+    <div class="app row">
+        <div class="app__scr">
+            <div class="app__link">
+                <a class="google-play-store" href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dmain_page_link%26utm_campaign%3Dshort_howto" class="app__googleplay"
+                   target="_blank">
+                    <img src="img/buy/google-play-badge.png">
+                </a>
+                <a href="https://testflight.apple.com/join/Zfu5mnIx" target="_blank" class="app_appstore">
+                    <img src="img/svg/app_store_btn.svg">
+                </a>
+            </div>
+            <div class="medium-5 column"></div>
+        </div>
+        <div class="join_fb"><a href="https://www.facebook.com/LIVE4GoPro/" target="_blank"><img src="img/join-fb.png"/></a></div>
+        <div class="column bottom-text" >
+            <div class="app_text">Share your emotions, adrenaline and delight live with the world.
+                All&nbsp;you&nbsp;need is your GoPro camera and phone.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="row">
+        <div class="small-12 column">
+            <p>©&nbsp;VideoGorillas LLC, 2013-2018
+<span>
+<a href="/start">Support</a> | 
+<a href="/policy">Privacy &amp; Policy</a> |
+<a href="/terms">Terms &amp; Conditions</a>
+</span></p>
+            <p>Designed for use with GOPRO® products. GOPRO® is a registered trademarks of Woodman Labs, Inc. in the
+                United States and other countries. Patents pending.</p></div>
+    </div>
+</div>
+<div class="fb-root"></div>
+<script>(function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-55300163-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isAndroid = userAgent.indexOf("android") > -1;
+    var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
+    if (isAndroid) {
+        document.querySelector(".app_appstore").style.display = "none";
+    } else if (isIOs) {
+        document.querySelector(".google-play-store").style.display = "none";
+        document.querySelector("video").src = "img/ios-short-button1-captions.mp4";
+        document.querySelector("video").poster = "img/ios-short-button1-captions.jpg";
+    }
+</script>
+</body>
+</html>
