@@ -44,7 +44,7 @@ The most frequent reason for stream interrupt on iOS is when you lock your phone
 iOS kills any app that works with video as soon as it gets off the screen.
 
 LIVE4 is sending notification when the app is entering background to let you know your stream is going to stop soon. And lets you know what happened if you missed or disabled notifications.
-![data upload](/assets/ios_lock_screen1_framed_small.jpg) ![data upload](/assets/ios_lock_screen2_framed_small.jpg) ![pug](/assets/ios-lockscreen-pug-framed_small.jpg)
+<img src="/assets/ios_lock_screen1_framed_small.jpg" width="33%" style="display: inline-block"><img src="/assets/ios_lock_screen2_framed_small.jpg" width="33%" style="display: inline-block"><img src="/assets/ios-lockscreen-pug-framed_small.jpg" width="33%" style="display: inline-block">
 
 
 We are working non-stop to make streaming with locked screen possible, but can't promise anything since it's Apples policy.
