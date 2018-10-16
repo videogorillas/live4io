@@ -44,9 +44,7 @@ The most frequent reason for stream interrupt on iOS is when you lock your phone
 iOS kills any app that works with video as soon as it gets off the screen.
 
 LIVE4 is sending notification when the app is entering background to let you know your stream is going to stop soon. And lets you know what happened if you missed or disabled notifications.
-![data upload](/assets/ios_lock_screen1_framed.jpg)
-![data upload](/assets/ios_lock_screen2_framed.jpg)
-![pug](/assets/ios-lockscreen-pug-framed.jpg)
+![data upload](/assets/ios_lock_screen1_framed_small.jpg) ![data upload](/assets/ios_lock_screen2_framed_small.jpg) ![pug](/assets/ios-lockscreen-pug-framed_small.jpg)
 
 
 We are working non-stop to make streaming with locked screen possible, but can't promise anything since it's Apples policy.
@@ -54,7 +52,7 @@ We are working non-stop to make streaming with locked screen possible, but can't
 As a workaround we can recommend using our Android app. Which you can find on [Google Play](https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dblog_ioslock%26utm_term%3Dcampaign1%26utm_content%3Dblog_ioslock_link%26utm_campaign%3Dblog_campaign). 
 
 Here is what it looks like when screen is locked on Android
-[![screen locked android](/assets/android_lock_screen1_framed.jpg)](https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dblog_ioslock%26utm_term%3Dcampaign1%26utm_content%3Dblog_ioslock_link%26utm_campaign%3Dblog_campaign)
+[![screen locked android](/assets/android_lock_screen1_framed_small.jpg)](https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dblog_ioslock%26utm_term%3Dcampaign1%26utm_content%3Dblog_ioslock_link%26utm_campaign%3Dblog_campaign)
 
 If you have questions, concerns or ideas how to make the experience better don't hesitate to contact us at [support@live4.io](mailto:support@live4.io) or join the discussion at [our facebook community page](https://facebook.com/LIVE4GoPro/)
 
