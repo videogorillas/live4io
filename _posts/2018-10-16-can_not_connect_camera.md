@@ -10,7 +10,7 @@ Read on to learn more.
 
 ![data upload](/assets/android_data_upload_framed_small.jpg)
 
-**Q**: Camera not found. Not connect. Not connecting after everything was done. Seems like i cant connect my camera. This time I can't connect completely the go pro.
+**Q**: We were unable to connect to your GoPro. Camera not found. Not connect. Not connecting after everything was done. Seems like i cant connect my camera. This time I can't connect completely the go pro.
 
  
 **A**: Looks like your wifi disconnects from GoPro because of some setting on the phone which doesn't let it keep connected to a network that doesn't provide internet.
