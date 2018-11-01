@@ -8,6 +8,8 @@ author: "LIVE4"
 
 Read on to learn more.
 
+hello
+
 ![data upload](/assets/android_data_upload_framed_small.jpg)
 
 **Q**: We were unable to connect to your GoPro. Camera not found. Not connect. Not connecting after everything was done. Seems like i cant connect my camera. This time I can't connect completely the go pro.
