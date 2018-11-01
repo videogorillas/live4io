@@ -24,4 +24,5 @@ Here you can find how to turn off Start network switch https://www.verizonwirele
 We created this video which explains how to get camera connected to your Android and start streaming.
 https://www.youtube.com/watch?v=y1JGEDWteDU
 
-If you have questions, concerns or ideas how to make LIVE4 experience better don't hesitate to contact us at [support@live4.io](mailto:support@live4.io) or join the discussion at [our facebook community page](https://facebook.com/LIVE4GoPro/)
+If you have questions, concerns or ideas how to make LIVE4 experience better don't hesitate to contact us at [support@live4.io](mailto:support@live4.io).
+Follow us on Facebook get the latest news and LIVE4 updates [https://www.facebook.com/LIVE4GoPro/] (https://facebook.com/LIVE4GoPro/)
