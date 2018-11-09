@@ -92,7 +92,8 @@ the LIVE4 logo, as well as the signature line with the link to our website when 
 
 We continuously work on app stability improvement and try our best to ensure all the important moments of your
 streaming to get recorded and delivered to your viewers. If you have questions, concerns or ideas how to make LIVE4
-better, do not hesitate to contact us at [support@live4.io](mailto:support@live4.io) or join the discussion at our facebook community page.
+better, do not hesitate to contact us at [support@live4.io](mailto:support@live4.io) or join the discussion at
+[our facebook community page](https://www.facebook.com/LIVE4GoPro/).
 
 Read more about [Buffering](https://live4.io/blog/buffering) or
 [How to add LIVE4 app to Facebook group](https://live4.io/blog/add-live4-app-to-group) on our blog.
