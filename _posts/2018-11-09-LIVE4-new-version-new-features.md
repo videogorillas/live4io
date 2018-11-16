@@ -43,7 +43,7 @@ connection to the camera.
 
 Since our main focus is to make LIVE4 convenient, an essential feature was added in this version – a full remote
 control of starting and stopping the camera. Let’s say your camera is not at hand at the moment and reaching after
-it to do some adjustments might ruin the frame. Here comes the remote control. Start, stop or pause the streaming when
+it to do some adjustments might ruin the frame. Here comes the remote control. Start or stop the streaming when
 you need it and without much effort.
 
 ###	New perks for the Android users
