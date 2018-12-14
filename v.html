@@ -173,6 +173,9 @@
                 <li>
                     <a href="/blog/faq" class="btn-nav">FAQ</a>
                 </li>
+                <li>
+                    <a href="#" class="btn-nav subscribeBtn" onclick="showSubscriptionForm()">Subscribe</a>
+                </li>
             </ul>
         </section>
     </nav>
@@ -275,6 +278,7 @@
                 United States and other countries. Patents pending.</p></div>
     </div>
 </div>
+<div id="live4SubIFrame"></div>
 <div class="fb-root"></div>
 <script>(function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -290,6 +294,21 @@
 
 ga('create', 'UA-55300163-1', 'auto');
 ga('send', 'pageview');
+</script>
+<script>
+    let iframeContainer = document.getElementById("live4SubIFrame");
+
+    showSubscriptionForm = () => {
+        iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"465\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
+    };
+
+    onLoadIFrameListener = () => {
+        var closeIFrameBtn = iframeContainer.querySelector("#closeIFrameBtn");
+
+        closeIFrameBtn.onclick = () => {
+            iframeContainer.innerHTML = "";
+        }
+    }
 </script>
 <script type="text/javascript">
     var userAgent = navigator.userAgent.toLowerCase();
