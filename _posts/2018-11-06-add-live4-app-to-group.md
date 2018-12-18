@@ -6,7 +6,7 @@ author: "LIVE4"
 
 ### This article may be helpful for you if you have troubles with streaming to a Facebook group
 
-Since April 2018 Facebook requires apps to be manually added to a group by an admin. By installing LIVE4 GoPro app on a group, a group admin can allow group members to publish live videos to the group.
+Since April 2018 Facebook requires apps to be manually added to a group by an admin. By connecting LIVE4 GoPro app to a group, a group admin can allow group members to publish live videos to the group.
 
 To add LIVE4 GoPro app to your group:
 
