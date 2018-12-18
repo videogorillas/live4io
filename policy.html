@@ -30,6 +30,9 @@
                 <li>
                     <a href="/blog/faq" class="btn-nav">FAQ</a>
                 </li>
+                <li class="subscribe-btn">
+                    <a href="#" class="btn-nav" onclick="showSubscriptionForm()">Subscribe</a>
+                </li>
             </ul></section>
         <div class="small-5 column store-btns">
             <a href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dpolicy_link%26utm_campaign%3Dshort_howto" class="google_play_btn" target="_blank">
@@ -261,6 +264,7 @@
     <p>Latest update: August 30, 2014</p>
     
 </div>
+<div id="live4SubIFrame"></div>
 <div class="footer">
     <div class="row">
         <div class="small-12 column">
@@ -277,6 +281,21 @@
 
 ga('create', 'UA-55300163-1', 'auto');
 ga('send', 'pageview');
+</script>
+<script>
+    let iframeContainer = document.getElementById("live4SubBtn");
+
+    showSubscriptionForm = () => {
+        iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"672\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
+    };
+
+    onLoadIFrameListener = () => {
+        var closeIFrameBtn = iframeContainer.querySelector("#closeIFrameBtn");
+
+        closeIFrameBtn.onclick = () => {
+            iframeContainer.innerHTML = "";
+        }
+    }
 </script>
 </body>
 </html>

@@ -840,6 +840,9 @@ ul.flex-list > li {
   .is-main > .header .btn-nav:focus {
     color: #0079FF;
   }
+  #navs > ul > li.subscribe-btn > a {
+    color: #ffffff;
+  }
 }
 .is-map > .header {
   padding: 0;
@@ -1508,6 +1511,9 @@ ul.flex-list > li {
   .live4player.live4player-ended .live4player-play-again {
     background-color: rgba(0, 0, 0, 0.3);
   }
+  #live4SubIFrame iframe {
+    width: 310px;
+  }
 }
 .step {
   font-family: 'Cytia-Light', sans-serif;
@@ -1592,6 +1598,25 @@ ul.flex-list > li {
 }
 .bottom-text {
     display: none;
+}
+.subscribe-btn {
+    border-radius: 3px;
+    background: #ee2737;
+}
+#live4SubIFrame {
+  position: absolute;
+  z-index: 5;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#closeIFrameBtn {
+  text-align: right;
+  color: red;
+  font-weight: 700;
+  font-size: 21px;
+  padding-right: 7px;
+  cursor: pointer;
 }
 .footer {
   text-align: left;
