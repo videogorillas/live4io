@@ -1596,6 +1596,10 @@ ul.flex-list > li {
 .bottom-text {
     display: none;
 }
+.subscribe-btn {
+    border-radius: 3px;
+    background: #ee2737;
+}
 #live4SubIFrame {
   position: absolute;
   z-index: 5;
