@@ -840,6 +840,10 @@ ul.flex-list > li {
   .is-main > .header .btn-nav:focus {
     color: #0079FF;
   }
+
+  #navs > ul > li.subscribe-btn > a {
+    color: #ffffff;
+  }
 }
 .is-map > .header {
   padding: 0;
