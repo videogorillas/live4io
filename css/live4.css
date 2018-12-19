@@ -1602,6 +1602,7 @@ ul.flex-list > li {
 .subscribe-btn {
     border-radius: 3px;
     background: #ee2737;
+    color: white;
 }
 #live4SubIFrame {
   position: absolute;

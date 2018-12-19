@@ -14,11 +14,14 @@
                 <li>
                     <a href="/start" class="btn-nav">Quick Start</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="/blog" class="btn-nav">Blog</a>
                 </li>
                 <li>
                     <a href="/blog/faq" class="btn-nav">FAQ</a>
+                </li>
+                <li class="subscribe-btn">
+                    <a href="#" class="btn-nav" onclick="showSubscriptionForm()">Subscribe</a>
                 </li>
             </ul>
         </section>
@@ -49,6 +52,30 @@
 
 ga('create', 'UA-55300163-1', 'auto');
 ga('send', 'pageview');
+</script>
+<script>
+    if (window.location.pathname.endsWith("faq")) {
+        let blogLiEl = document.querySelector("#navs > ul > li:nth-child(3)");
+        blogLiEl.classList.add("active")
+    } else {
+        let faqLiEl = document.querySelector("#navs > ul > li:nth-child(2)");
+        faqLiEl.classList.add("active")
+    }
+</script>
+<script>
+    let iframeContainer = document.getElementById("live4SubIFrame");
+
+    showSubscriptionForm = () => {
+        iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"672\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
+    };
+
+    onLoadIFrameListener = () => {
+        var closeIFrameBtn = iframeContainer.querySelector("#closeIFrameBtn");
+
+        closeIFrameBtn.onclick = () => {
+            iframeContainer.innerHTML = "";
+        }
+    }
 </script>
 </body>
 </html>
