@@ -282,6 +282,22 @@
 ga('create', 'UA-55300163-1', 'auto');
 ga('send', 'pageview');
 </script>
+<script type="text/javascript">
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isAndroid = userAgent.indexOf("android") > -1;
+    var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
+    if (isAndroid) {
+        document.querySelector(".app_appstore").style.display = "none";
+    } else if (isIOs) {
+        document.querySelector(".google-play-store").style.display = "none";
+        document.querySelector("video").src = "img/ios-short-button1-captions.mp4";
+        document.querySelector("video").poster = "img/ios-short-button1-captions.jpg";
+    }
+    if (isAndroid || isIOs) {
+        let iframeContainer = document.getElementById("live4SubIFrame");
+        iframeContainer.setAttribute("style", "top:21% !important; height:154px !important")
+    }
+</script>
 <script>
     let iframeContainer = document.getElementById("live4SubBtn");
 

@@ -1599,10 +1599,10 @@ ul.flex-list > li {
 .bottom-text {
     display: none;
 }
-.subscribe-btn {
+#navs .subscribe-btn a {
     border-radius: 3px;
     background: #ee2737;
-    color: white;
+    color: #ffffff;
 }
 #live4SubIFrame {
   position: absolute;
