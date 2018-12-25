@@ -1619,6 +1619,27 @@ ul.flex-list > li {
   padding-right: 7px;
   cursor: pointer;
 }
+.footer-subscribe-header {
+    font-size: 26px;
+    font-weight: bold;
+}
+.footer-subscribe-text {
+    margin: 20px 0;
+}
+.footer-subscribe {
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px 0;
+  margin-bottom: 42px;
+}
+.footer-subscribe-button {
+  background: #ee2737;
+  font-size: 18px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+}
 .footer {
   text-align: left;
   font-size: 10px;
