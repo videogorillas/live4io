@@ -1605,11 +1605,19 @@ ul.flex-list > li {
     color: #ffffff;
 }
 #live4SubIFrame {
-  position: absolute;
-  z-index: 5;
-  top: 42%;
+  position: fixed;
+  top: 50%;
   left: 50%;
+  z-index: 5;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+#closeForm {
+  width: fit-content;
+  color: #ffffff;
+  padding: 5px 10px;
+  background: #42424242;
+  cursor: pointer;
 }
 #closeIFrameBtn {
   text-align: right;

@@ -60,10 +60,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.8.3)
+  jekyll (~> 3.8.4)
   jekyll-feed (~> 0.6)
   jekyll-paginate
   tzinfo-data
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
