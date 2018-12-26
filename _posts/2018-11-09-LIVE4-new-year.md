@@ -29,34 +29,34 @@ Why limit yourself only to Facebook? There are many other platforms your friends
 stream in other messengers and social channels can bring in new people, who may not be following your  Facebook feed
 that often. One press of a button will enable you to send the link of your stream to any other platform you need.
 
-![Pin your location in LIVE4 app](/assets/location2.png)
+<img src="/assets/location2.png" alt="Pin your location in LIVE4 app" width="42%">
 
 ### 2. Pin your location in LIVE4 app
 
 Attach your location to a Facebook post and let everyone know where you are now before they open the stream.
 
-![Tag friends in your live stream in LIVE4 app](/assets/add-friend2.png)
+<img src="/assets/add-friend2.png" alt="Tag friends in your live stream in LIVE4 app" width="42%">
 
 ###	3. Tag friends in your live stream
 
 Streaming together with your friends? Then tag them in your post before going live! Give viewers additional info
 before they press “watch”.
 
-![Add your own custom logo in LIVE4 app](/assets/your_logo.png)
+<img src="/assets/your_logo.png" alt="Add your own custom logo in LIVE4 app" width="42%">
 
 ### 4. Add your own custom logo
 
 Brand identity and its visual communication plays very important role in business promotion. Unique logos help
 customers build brand association and awareness. Add your own custom logo to personalize the stream to your audience.
 
-![Re-upload videos in better quality in LIVE4 app](/assets/upload.png)
+<img src="/assets/upload.png" alt="Re-upload videos in better quality in LIVE4 app" width="42%">
 
 ### 5. “Jump to live” button
 
 We will notify you when the internet connection is down for a few minutes, so you can choose to upload the buffered
 frames or press the “Jump to live” button and switch to a current live streaming moment.
 
-![Add “Jump to live” button in LIVE4 app](/assets/jump_to_live.png)
+<img src="/assets/jump_to_live.png" alt="Add “Jump to live” button in LIVE4 app" width="42%">
 
 ### 6. Re-upload videos in better quality
 
@@ -64,9 +64,7 @@ If you don’t like the quality of the original live stream, we will enable a re
 resolution having all your likes, comments and impressions saved from the previous streaming session! “Upload in HD”
 button will appear once you finish your live and offer to replace it.
 
-![Smartwatches support in LIVE4 app](/assets/smartwatch_support.png)
-
-<img src="/assets/smartwatch_support.png" alt=Smartwatches support in LIVE4 app "width="50%">
+ <img src="/assets/smartwatch_support.png" alt="Smartwatches support in LIVE4 app" width="75%">
 
 ### 7. Smartwatches support
 
@@ -76,7 +74,7 @@ your pocket, but you can’t actually see what you’re filming that very moment
 one! For our smartwatch owners we will offer a special LIVE4 plugin enabling a stream preview and a “start/stop”
 button to control live sessions from the screen of your watch.
 
- <img src="/assets/sensor_data.png" alt=Sensor data from smartphones and -watches in LIVE4 app "width="50%">
+ <img src="/assets/sensor_data.png" alt="Sensor data from smartphones and -watches in LIVE4 app" width="42%">
 
 ### 8. Integrate sensor data from smartphones and -watches
 
@@ -84,22 +82,13 @@ We have a hunch this will become a favourite feature for our extreme sports fans
 frequency, jump altitude, latitude, longitude or speed rate of an intense car ride with your viewers! A smartwatch
 will scan your body parameters and transmit them directly to your live video.
 
-<img src="/assets/top_scores.png" alt="New “Top scores” section in LIVE4 app" width="50%">
-
+<img src="/assets/top_scores.png" alt="New “Top scores” section in LIVE4 app" width="42%">
 
 ### 9. New “Top scores” section
 
 Once we integrate smartwatches support and body sensor data, be sure to find a new section in our app called
 “Top Scores”. “Top scores” is a list of our most popular streamers featured in different categories like: The
 Longest Stream; The Highest Altitude; The Fastest Speed; Most Frequent Streamer in LIVE4 history, etc. Stay tuned ;)
-
-
-<img src="/assets/LIVE4_free_trial_iOS.jpg" alt="LIVE4 free trial and subscriptions for iOS" width="50%" style="display: inline-block">
-
-srcset="/assets/LIVE4_free_trial_iOS.jpg 2x"
-
-![New “Top scores” section in LIVE4 app](/assets/top_scores.png)
-
 
 
 
