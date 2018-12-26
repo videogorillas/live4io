@@ -153,8 +153,11 @@
 
     onLoadIFrameListener = () => {
         var closeIFrameBtn = iframeContainer.querySelector("#closeIFrameBtn");
-
+        let closeForm = iframeContainer.querySelector("#closeForm");
         closeIFrameBtn.onclick = () => {
+            iframeContainer.innerHTML = "";
+        };
+        closeForm.onclick = () => {
             iframeContainer.innerHTML = "";
         }
     }
