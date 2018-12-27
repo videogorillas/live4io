@@ -21,7 +21,7 @@ creative.
 And as proof, we’d like to share our New Year’s resolutions with you. See the list of new features we’d like to
 introduce in 2019.
 
-![Add “Share your stream” button in LIVE4 app](/assets/share_your_stream.png)
+<img src="/assets/share_your_stream.png" alt="Add “Share your stream” button in LIVE4 app" width="69%">
 
 ###	1. Add “Share your stream” button
 
@@ -29,20 +29,20 @@ Why limit yourself only to Facebook? There are many other platforms your friends
 stream in other messengers and social channels can bring in new people, who may not be following your  Facebook feed
 that often. One press of a button will enable you to send the link of your stream to any other platform you need.
 
-<img src="/assets/location2.png" alt="Pin your location in LIVE4 app" width="42%">
+<img src="/assets/location2.png" alt="Pin your location in LIVE4 app" width="30%">
 
 ### 2. Pin your location in LIVE4 app
 
 Attach your location to a Facebook post and let everyone know where you are now before they open the stream.
 
-<img src="/assets/add-friend2.png" alt="Tag friends in your live stream in LIVE4 app" width="42%">
+<img src="/assets/add-friend2.png" alt="Tag friends in your live stream in LIVE4 app" width="30%">
 
 ###	3. Tag friends in your live stream
 
 Streaming together with your friends? Then tag them in your post before going live! Give viewers additional info
 before they press “watch”.
 
-<img src="/assets/your_logo.png" alt="Add your own custom logo in LIVE4 app" width="42%">
+<img src="/assets/your_logo.png" alt="Add your own custom logo in LIVE4 app" width="30%">
 
 ### 4. Add your own custom logo
 
@@ -56,7 +56,7 @@ customers build brand association and awareness. Add your own custom logo to per
 We will notify you when the internet connection is down for a few minutes, so you can choose to upload the buffered
 frames or press the “Jump to live” button and switch to a current live streaming moment.
 
-<img src="/assets/jump_to_live.png" alt="Add “Jump to live” button in LIVE4 app" width="42%">
+<img src="/assets/jump_to_live.png" alt="Add “Jump to live” button in LIVE4 app" width="30%">
 
 ### 6. Re-upload videos in better quality
 
@@ -74,7 +74,7 @@ your pocket, but you can’t actually see what you’re filming that very moment
 one! For our smartwatch owners we will offer a special LIVE4 plugin enabling a stream preview and a “start/stop”
 button to control live sessions from the screen of your watch.
 
- <img src="/assets/sensor_data.png" alt="Sensor data from smartphones and -watches in LIVE4 app" width="42%">
+ <img src="/assets/sensor_data.png" alt="Sensor data from smartphones and -watches in LIVE4 app" width="30%">
 
 ### 8. Integrate sensor data from smartphones and -watches
 
@@ -82,7 +82,7 @@ We have a hunch this will become a favourite feature for our extreme sports fans
 frequency, jump altitude, latitude, longitude or speed rate of an intense car ride with your viewers! A smartwatch
 will scan your body parameters and transmit them directly to your live video.
 
-<img src="/assets/top_scores.png" alt="New “Top scores” section in LIVE4 app" width="42%">
+<img src="/assets/top_scores.png" alt="New “Top scores” section in LIVE4 app" width="50%">
 
 ### 9. New “Top scores” section
 
