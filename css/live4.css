@@ -1631,6 +1631,19 @@ ul.flex-list > li {
   width: 985px;
   margin: 0 auto;
 }
+.features-wrapper .fi-check {
+  color: limegreen;
+}
+.features-wrapper .fi-x {
+  color: #ee2737;
+}
+.features-wrapper .no-wifi-text {
+  padding-left: 15px;
+}
+.features-wrapper table > tbody > tr > td:nth-child(1) {
+    width: 60%;
+    border-right: 1px solid #4242;
+}
 .footer-subscribe-header {
     font-size: 26px;
     font-weight: bold;
