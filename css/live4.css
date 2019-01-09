@@ -1627,6 +1627,10 @@ ul.flex-list > li {
   padding-right: 7px;
   cursor: pointer;
 }
+.features-wrapper {
+  width: 985px;
+  margin: 0 auto;
+}
 .footer-subscribe-header {
     font-size: 26px;
     font-weight: bold;
