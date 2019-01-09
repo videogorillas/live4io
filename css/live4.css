@@ -1637,6 +1637,10 @@ ul.flex-list > li {
 .features-wrapper .fi-x {
   color: #ee2737;
 }
+.features-wrapper .fi-info, .features-wrapper .fi-photo {
+  font-size: 1.2rem;
+  color: darkgrey;
+}
 .features-wrapper .no-wifi-text {
   padding-left: 15px;
 }
