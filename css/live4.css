@@ -1629,7 +1629,7 @@ ul.flex-list > li {
 }
 .features-wrapper {
   width: 985px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 .features-wrapper .fi-check {
   color: limegreen;
@@ -1639,6 +1639,13 @@ ul.flex-list > li {
 }
 .features-wrapper .no-wifi-text {
   padding-left: 15px;
+}
+.features-wrapper table {
+  margin-top: 2rem;
+}
+.features-bottom-text {
+    margin: 3rem 0 2rem;
+    font-size: 18px;
 }
 .features-wrapper table > tbody > tr > td:nth-child(1) {
     width: 60%;
