@@ -263,7 +263,30 @@
             <td>
                 <div class="row">
                     <div class="small-6">Instagram</div>
-                    <div class="small-6 text-right"><i class="fi-info"></i></div>
+                    <div class="small-6 text-right">
+                        <i class="fi-info"></i>
+                        <div class="info-popup">
+                            <form id="igForm">
+                                <div class="row collapse">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-11 columns notify-text">Notify me when streaming to this platform is available</div>
+                                </div>
+                                <div class="row collapse ">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-7 columns">
+                                        <input type="email" name="InstagramResponses" placeholder="Email:">
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <a href="#" id="submitIgForm" class="button postfix success submit-button"
+                                           aria-label="submit form">Subscribe</a>
+                                    </div>
+                                </div>
+                                <label for="checkboxFusion"><input id="checkboxIg" type="checkbox" checked>I
+                                    agree to receive information about
+                                    the availability of new platforms</label>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </td>
             <td class="text-center"><i class="fi-x"></i></td>
@@ -418,6 +441,21 @@ ga('send', 'pageview');
         }).done(
             // do something
             console.log("Wow wow sh1t works 2")
+        );
+    });
+
+    var $igForm = $('form#igForm');
+
+    $('#submitIgForm').on('click', function(e) {
+        e.preventDefault();
+        var igfrm = $.ajax({
+            url: 'https://script.google.com/macros/s/AKfycbxyEOu-58zTE2CDkxwYiIeIlqEY2iCdckGoh3IlF1Eq4zMOCgU/exec',
+            method: "GET",
+            dataType: "json",
+            data: $igForm.serializeArray()
+        }).done(
+            // do something
+            console.log("Wow wow sh1t works 3")
         );
     })
 </script>
