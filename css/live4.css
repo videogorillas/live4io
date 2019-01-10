@@ -1638,6 +1638,7 @@ ul.flex-list > li {
   color: #ee2737;
 }
 .features-wrapper .fi-info, .features-wrapper .fi-photo {
+  cursor: pointer;
   font-size: 1.2rem;
   color: darkgrey;
 }
@@ -1654,6 +1655,21 @@ ul.flex-list > li {
 .features-wrapper table > tbody > tr > td:nth-child(1) {
     width: 60%;
     border-right: 1px solid #4242;
+}
+.features-wrapper .info-popup {
+    position: absolute;
+    width: 350px;
+    background: white;
+    text-align: left;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    padding: 5px;
+}
+.features-wrapper .info-popup .notify-text {
+    margin-bottom: 1rem;
+}
+.features-wrapper .info-popup label input {
+    float: left;
 }
 .footer-subscribe-header {
     font-size: 26px;

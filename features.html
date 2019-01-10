@@ -11,6 +11,7 @@
     <link rel="stylesheet" media="screen" href="css/live4.css">
     <link size="64x64" rel="shortcut icon" href="img/icons/favicon.ico">
     <link rel="stylesheet" type="text/css" href="fonts/foundation-icons.css">
+    <script src="libraries/jquery-3.3.1.min.js"></script>
     <script async="" src="//www.google-analytics.com/analytics.js"></script>
 </head>
 <body class="is-responsive" cz-shortcut-listen="true">
@@ -69,7 +70,30 @@
             <td>
                 <div class="row">
                     <div class="small-6">Fusion</div>
-                    <div class="small-6 text-right"><i class="fi-info"></i></div>
+                    <div class="small-6 text-right">
+                        <i class="fi-info"></i>
+                        <div class="info-popup">
+                            <form id="fusionForm">
+                                <div class="row collapse">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-11 columns notify-text">Notify me when GoPro Fusion is supported</div>
+                                </div>
+                                <div class="row collapse ">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-7 columns">
+                                        <input type="email" name="FusionCamResponses" placeholder="Email:">
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <a href="#" id="submitFusionForm" class="button postfix success submit-button"
+                                           aria-label="submit form">Subscribe</a>
+                                    </div>
+                                </div>
+                                <label for="checkboxFusion"><input id="checkboxFusion" type="checkbox" checked>I
+                                    agree to receive information about
+                                    the availability of new platforms</label>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </td>
             <td class="text-center"><i class="fi-x"></i></td>
@@ -186,6 +210,15 @@
             <td>Screen autolock disabled to keep the stream on (for iOS only)</td>
             <td class="text-center"><i class="fi-check"></i></td>
         </tr>
+        <tr>
+            <td>
+                <div class="row">
+                    <div class="small-6">Tag a friend</div>
+                    <div class="small-6 text-right"><i class="fi-info"></i></div>
+                </div>
+            </td>
+            <td class="text-center"><i class="fi-x"></i></td>
+        </tr>
     </table>
 
     <table class="striped hover">
@@ -262,15 +295,6 @@
             <td>Only my</td>
             <td class="text-center"><i class="fi-check"></i></td>
         </tr>
-        <tr>
-            <td>
-                <div class="row">
-                    <div class="small-6">Choose a friend</div>
-                    <div class="small-6 text-right"><i class="fi-info"></i></div>
-                </div>
-            </td>
-            <td class="text-center"><i class="fi-x"></i></td>
-        </tr>
     </table>
 
     <table class="striped hover">
@@ -338,6 +362,39 @@
 
 ga('create', 'UA-55300163-1', 'auto');
 ga('send', 'pageview');
+</script>
+<script>
+    var $fusionForm = $('form#fusionForm'),
+        url = 'https://script.google.com/macros/s/AKfycbxgxeFU48MYWxjvamIcW39SZ6Y-CEFaRfFeEouEQAFzz29kR7A/exec';
+
+    $('#submitFusionForm').on('click', function(e) {
+        e.preventDefault();
+        var ffrm = $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: $fusionForm.serializeArray()
+        }).done(
+            // do something
+            console.log("Wow wow sh1t works")
+        );
+    });
+
+    var $yotubeForm = $('form#youtubeForm'),
+        url = 'https://script.google.com/macros/s/AKfycbwCKY4XPACXAUbqUTVN69sgYw5Nk2VFQigKZ2v_TAttkwuqXjQC/exec';
+
+    $('#submitYoutubeForm').on('click', function(e) {
+        e.preventDefault();
+        var yfrm = $.ajax({
+            url: url,
+            method: "GET",
+            dataType: "json",
+            data: $yotubeForm.serializeArray()
+        }).done(
+            // do something
+            console.log("Wow wow sh1t works")
+        );
+    })
 </script>
 <script>
     let iframeContainer = document.getElementById("live4SubIFrame");
