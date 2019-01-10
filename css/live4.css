@@ -1659,6 +1659,7 @@ ul.flex-list > li {
 .features-wrapper .info-popup {
     position: absolute;
     width: 350px;
+    display: none;
     background: white;
     text-align: left;
     border: 1px solid darkgray;
