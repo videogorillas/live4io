@@ -214,7 +214,30 @@
             <td>
                 <div class="row">
                     <div class="small-6">Tag a friend</div>
-                    <div class="small-6 text-right"><i class="fi-info"></i></div>
+                    <div class="small-6 text-right">
+                        <i class="fi-info"></i>
+                        <div class="info-popup">
+                            <form id="tagFriendForm">
+                                <div class="row collapse">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-11 columns notify-text">Notify me when available</div>
+                                </div>
+                                <div class="row collapse ">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-7 columns">
+                                        <input type="email" name="TagAFriendResponses" placeholder="Email:">
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <a href="#" id="submitTagFriendForm" class="button postfix success submit-button"
+                                           aria-label="submit form">Send</a>
+                                    </div>
+                                </div>
+                                <label for="checkboxTagAFriend"><input id="checkboxTagAFriend" type="checkbox" checked>I
+                                    agree to receive information about
+                                    the availability of new platforms</label>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </td>
             <td class="text-center"><i class="fi-x"></i></td>
@@ -308,7 +331,7 @@
                                     <div class="small-10 columns">
                                         <input type="email" name="OtherResponses" placeholder="Your email:" required>
                                         <input type="text" name="OtherPlatformResponses" placeholder="Type your platform here:" required>
-                                        <a href="" id="submitOtherForm" class="button postfix success submit-button"
+                                        <a href="#" id="submitOtherForm" class="button postfix success submit-button"
                                            aria-label="submit form">Send</a>
                                     </div>
                                     <div class="small-1 columns"></div>
@@ -494,6 +517,21 @@ ga('send', 'pageview');
         }).done(
             // do something
             console.log("Wow wow sh1t works 4")
+        );
+    });
+
+    var $tagFriendForm = $('form#tagFriendForm');
+
+    $('#submitTagFriendForm').on('click', function(e) {
+        e.preventDefault();
+        var tffrm = $.ajax({
+            url: 'https://script.google.com/macros/s/AKfycbz2plAZ2YNA5UTZV4DOr_Ep1-bSVEe7kJKR3NdRKrNPEXrUPlm2/exec',
+            method: "GET",
+            dataType: "json",
+            data: $tagFriendForm.serializeArray()
+        }).done(
+            // do something
+            console.log("Wow wow sh1t works 5")
         );
     });
 </script>
