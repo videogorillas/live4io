@@ -249,7 +249,7 @@
                                            aria-label="submit form">Subscribe</a>
                                     </div>
                                 </div>
-                                <label for="checkboxFusion"><input id="checkboxYoutube" type="checkbox" checked>I
+                                <label for="checkboxYoutube"><input id="checkboxYoutube" type="checkbox" checked>I
                                     agree to receive information about
                                     the availability of new platforms</label>
                             </form>
@@ -281,7 +281,7 @@
                                            aria-label="submit form">Subscribe</a>
                                     </div>
                                 </div>
-                                <label for="checkboxFusion"><input id="checkboxIg" type="checkbox" checked>I
+                                <label for="checkboxIg"><input id="checkboxIg" type="checkbox" checked>I
                                     agree to receive information about
                                     the availability of new platforms</label>
                             </form>
@@ -295,7 +295,30 @@
             <td>
                 <div class="row">
                     <div class="small-6">Other</div>
-                    <div class="small-6 text-right"><i class="fi-info"></i></div>
+                    <div class="small-6 text-right">
+                        <i class="fi-info"></i>
+                        <div class="info-popup">
+                            <form id="otherForm">
+                                <div class="row collapse">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-11 columns notify-text">Can't find the platform you'd like to stream to in our list?</div>
+                                </div>
+                                <div class="row collapse ">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-10 columns">
+                                        <input type="email" name="OtherResponses" placeholder="Your email:" required>
+                                        <input type="text" name="OtherPlatformResponses" placeholder="Type your platform here:" required>
+                                        <a href="" id="submitOtherForm" class="button postfix success submit-button"
+                                           aria-label="submit form">Send</a>
+                                    </div>
+                                    <div class="small-1 columns"></div>
+                                </div>
+                                <label for="checkboxOther"><input id="checkboxOther" type="checkbox" checked>I
+                                    agree to receive information about
+                                    the availability of new platforms</label>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </td>
             <td class="text-center"><i class="fi-x"></i></td>
@@ -457,7 +480,22 @@ ga('send', 'pageview');
             // do something
             console.log("Wow wow sh1t works 3")
         );
-    })
+    });
+
+    var $otherForm = $('form#otherForm');
+
+    $('#submitOtherForm').on('click', function(e) {
+        e.preventDefault();
+        var ofrm = $.ajax({
+            url: 'https://script.google.com/macros/s/AKfycbxmbYFvgRLHD0bef6p5QODbi144eJI-asT2LH2XaQSI8j1oi-E/exec',
+            method: "GET",
+            dataType: "json",
+            data: $otherForm.serializeArray()
+        }).done(
+            // do something
+            console.log("Wow wow sh1t works 4")
+        );
+    });
 </script>
 <script>
     let iframeContainer = document.getElementById("live4SubIFrame");
