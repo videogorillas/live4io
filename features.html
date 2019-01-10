@@ -32,7 +32,7 @@
                     <a href="/blog/faq" class="btn-nav">FAQ</a>
                 </li>
                 <li class="subscribe-btn">
-                    <a href="#" class="btn-nav" onclick="showSubscriptionForm()">Subscribe</a>
+                    <a href="#!" class="btn-nav" onclick="showSubscriptionForm()">Subscribe</a>
                 </li>
             </ul>
         </section>
@@ -84,7 +84,7 @@
                                         <input type="email" name="FusionCamResponses" placeholder="Email:" required>
                                     </div>
                                     <div class="small-4 columns">
-                                        <a href="#" id="submitFusionForm" class="button postfix success submit-button"
+                                        <a href="#!" id="submitFusionForm" class="button postfix success submit-button"
                                            aria-label="submit form">Subscribe</a>
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@
                                         <input type="email" name="TagAFriendResponses" placeholder="Email:" required>
                                     </div>
                                     <div class="small-4 columns">
-                                        <a href="#" id="submitTagFriendForm" class="button postfix success submit-button"
+                                        <a href="#!" id="submitTagFriendForm" class="button postfix success submit-button"
                                            aria-label="submit form">Send</a>
                                     </div>
                                 </div>
@@ -268,7 +268,7 @@
                                         <input type="email" name="YoutubeResponses" placeholder="Email:" required>
                                     </div>
                                     <div class="small-4 columns">
-                                        <a href="#" id="submitYoutubeForm" class="button postfix success submit-button"
+                                        <a href="#!" id="submitYoutubeForm" class="button postfix success submit-button"
                                            aria-label="submit form">Subscribe</a>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@
                                         <input type="email" name="InstagramResponses" placeholder="Email:" required>
                                     </div>
                                     <div class="small-4 columns">
-                                        <a href="#" id="submitIgForm" class="button postfix success submit-button"
+                                        <a href="#!" id="submitIgForm" class="button postfix success submit-button"
                                            aria-label="submit form">Subscribe</a>
                                     </div>
                                 </div>
@@ -331,7 +331,7 @@
                                     <div class="small-10 columns">
                                         <input type="email" name="OtherResponses" placeholder="Your email:" required>
                                         <input type="text" name="OtherPlatformResponses" placeholder="Type your platform here:" required>
-                                        <a href="#" id="submitOtherForm" class="button postfix success submit-button"
+                                        <a href="#!" id="submitOtherForm" class="button postfix success submit-button"
                                            aria-label="submit form">Send</a>
                                     </div>
                                     <div class="small-1 columns"></div>
@@ -470,8 +470,7 @@ ga('send', 'pageview');
             dataType: "json",
             data: $fusionForm.serializeArray()
         }).done(
-            // do something
-            console.log("Wow wow sh1t works")
+            $(this).text('Done').attr('disabled', 'true').off('click')
         );
     });
 
@@ -485,8 +484,7 @@ ga('send', 'pageview');
             dataType: "json",
             data: $youtubeForm.serializeArray()
         }).done(
-            // do something
-            console.log("Wow wow sh1t works 2")
+            $(this).text('Done').attr('disabled', 'true').off('click')
         );
     });
 
@@ -500,8 +498,7 @@ ga('send', 'pageview');
             dataType: "json",
             data: $igForm.serializeArray()
         }).done(
-            // do something
-            console.log("Wow wow sh1t works 3")
+            $(this).text('Done').attr('disabled', 'true').off('click')
         );
     });
 
@@ -515,8 +512,7 @@ ga('send', 'pageview');
             dataType: "json",
             data: $otherForm.serializeArray()
         }).done(
-            // do something
-            console.log("Wow wow sh1t works 4")
+            $(this).text('Done').attr('disabled', 'true').off('click')
         );
     });
 
@@ -530,8 +526,7 @@ ga('send', 'pageview');
             dataType: "json",
             data: $tagFriendForm.serializeArray()
         }).done(
-            // do something
-            console.log("Wow wow sh1t works 5")
+            $(this).text('Done').attr('disabled', 'true').off('click')
         );
     });
 </script>
