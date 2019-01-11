@@ -365,8 +365,31 @@
         <tr>
             <td>
                 <div class="row">
-                    <div class="small-6">Private message</div>
-                    <div class="small-6 text-right"><i class="fi-info"></i></div>
+                    <div class="small-6">Event Page</div>
+                    <div class="small-6 text-right">
+                        <i class="fi-info"></i>
+                        <div class="info-popup">
+                            <form id="eventPageForm">
+                                <div class="row collapse">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-11 columns notify-text">Notify me when available</div>
+                                </div>
+                                <div class="row collapse ">
+                                    <div class="small-1 columns"></div>
+                                    <div class="small-7 columns">
+                                        <input type="email" name="EventPageResponses" placeholder="Email:" required>
+                                    </div>
+                                    <div class="small-4 columns">
+                                        <a href="#!" id="submitEventPageForm" class="button postfix success submit-button"
+                                           aria-label="submit form">Subscribe</a>
+                                    </div>
+                                </div>
+                                <label for="checkboxEventPage"><input id="checkboxEventPage" type="checkbox" checked>I
+                                    agree to receive information about
+                                    the availability of new platforms</label>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </td>
             <td class="text-center"><i class="fi-x"></i></td>
@@ -470,7 +493,11 @@ ga('send', 'pageview');
             dataType: "json",
             data: $fusionForm.serializeArray()
         }).done(
-            $(this).text('Done').attr('disabled', 'true').off('click')
+            $(this).text('Done').attr('disabled', 'true').off('click'),
+        $fusionForm.parent().addClass('hide-smooth'),
+            setTimeout(function () {
+                $fusionForm.parent().removeAttr('style').removeClass('hide-smooth')
+            }, 2000),
         );
     });
 
@@ -484,7 +511,11 @@ ga('send', 'pageview');
             dataType: "json",
             data: $youtubeForm.serializeArray()
         }).done(
-            $(this).text('Done').attr('disabled', 'true').off('click')
+            $(this).text('Done').attr('disabled', 'true').off('click'),
+        $youtubeForm.parent().addClass('hide-smooth'),
+            setTimeout(function () {
+                $youtubeForm.parent().removeAttr('style').removeClass('hide-smooth')
+            }, 2000),
         );
     });
 
@@ -498,7 +529,11 @@ ga('send', 'pageview');
             dataType: "json",
             data: $igForm.serializeArray()
         }).done(
-            $(this).text('Done').attr('disabled', 'true').off('click')
+            $(this).text('Done').attr('disabled', 'true').off('click'),
+        $igForm.parent().addClass('hide-smooth'),
+            setTimeout(function () {
+                $igForm.parent().removeAttr('style').removeClass('hide-smooth')
+            }, 2000),
         );
     });
 
@@ -512,7 +547,11 @@ ga('send', 'pageview');
             dataType: "json",
             data: $otherForm.serializeArray()
         }).done(
-            $(this).text('Done').attr('disabled', 'true').off('click')
+            $(this).text('Done').attr('disabled', 'true').off('click'),
+        $otherForm.parent().addClass('hide-smooth'),
+            setTimeout(function () {
+                $otherForm.parent().removeAttr('style').removeClass('hide-smooth')
+            }, 2000),
         );
     });
 
@@ -526,7 +565,29 @@ ga('send', 'pageview');
             dataType: "json",
             data: $tagFriendForm.serializeArray()
         }).done(
-            $(this).text('Done').attr('disabled', 'true').off('click')
+            $(this).text('Done').attr('disabled', 'true').off('click'),
+        $tagFriendForm.parent().addClass('hide-smooth'),
+            setTimeout(function () {
+                $tagFriendForm.parent().removeAttr('style').removeClass('hide-smooth')
+            }, 2000),
+        );
+    });
+
+    var $eventPageForm = $('form#eventPageForm');
+
+    $('#submitEventPageForm').on('click', function(e) {
+        e.preventDefault();
+        var epfrm = $.ajax({
+            url: 'https://script.google.com/macros/s/AKfycbxg0_z378tGwi9mVuBGesIHtNTlmk6a43c4AECl-3rfoCkk2T2w/exec',
+            method: "GET",
+            dataType: "json",
+            data: $eventPageForm.serializeArray()
+        }).done(
+            $(this).text('Done').attr('disabled', 'true').off('click'),
+            $eventPageForm.parent().addClass('hide-smooth'),
+            setTimeout(function () {
+                $eventPageForm.parent().removeAttr('style').removeClass('hide-smooth')
+            }, 2000),
         );
     });
 </script>
