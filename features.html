@@ -483,6 +483,16 @@ ga('send', 'pageview');
         $(this).next('div').toggle()
     });
 
+    $('.info-popup input:checkbox').change(
+        function () {
+            var submitButton = $(this).parent().prev('div').find('a');
+            if ($(this).is(':checked')) {
+                submitButton.removeAttr('disabled')
+            } else {
+                submitButton.attr('disabled', true)
+            }
+        });
+
     var $fusionForm = $('form#fusionForm');
 
     $('#submitFusionForm').on('click', function(e) {
