@@ -461,6 +461,7 @@
                 <img src="img/buy/1280px-Google_play.png">
             </a>
         </div>
+        <div class="small-1 blank-space"></div>
         <div class="small-3 app_appstore">
             <a href="https://itunes.apple.com/ua/app/live4/id919921242" target="_blank">
                 <img src="img/buy/1000px-App_Store_Badge.png">
@@ -616,7 +617,7 @@ ga('send', 'pageview');
     let iframeContainer = document.getElementById("live4SubIFrame");
 
     showSubscriptionForm = () => {
-        iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"672\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
+        iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"400\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
     };
 
     onLoadIFrameListener = () => {
@@ -636,8 +637,10 @@ ga('send', 'pageview');
     var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
     if (isAndroid) {
         document.querySelector(".app_appstore").style.display = "none";
+        document.querySelector(".blank-space").style.display = "none";
     } else if (isIOs) {
         document.querySelector(".app__googleplay").style.display = "none";
+        document.querySelector(".blank-space").style.display = "none";
     }
     if (isAndroid || isIOs) {
         let iframeContainer = document.getElementById("live4SubIFrame");
