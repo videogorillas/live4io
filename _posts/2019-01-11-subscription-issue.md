@@ -17,7 +17,7 @@ Why? What should I do?**
 ### Why it happens?
 
 At the moment, LIVE4 app is not able to monitor and recognize subscription changes made outside of the app when
-user is on a free trial. We are working to resolve  the issue.
+user is on a free trial. We are working to resolve the issue.
 
 ### PLEASE NOTE
 
@@ -25,7 +25,7 @@ user is on a free trial. We are working to resolve  the issue.
    pay attention that it’s only possible with a **Yearly Subscription** free trial!
 
    - If you have chosen **1-month** or **3-months subscription**, *the only* feature you get during a free trial period is
-    streaming to business pages and groups.
+   streaming to business pages and groups.
 
    - If you make any changes to your subscription during the trial period (either cancellation or switching to a
     Yearly subscription) the changes won’t take effect until trial period expires. Your free trial expires exactly
