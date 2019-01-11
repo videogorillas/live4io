@@ -650,12 +650,6 @@ ul.flex-list > li {
   top: 100%;
   padding-top: 10px;
 }
-.is-main .bottompart .app .app__link .app_appstore img {
-  width: 142px;
-}
-.is-main .bottompart .app .app__link .google-play-store img {
-  width: 163px;
-}
 @media only screen and (max-width: 720px) {
   .is-main .bottompart .app .app__link {
     position: static;
