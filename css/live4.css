@@ -1679,6 +1679,11 @@ ul.flex-list > li {
     0% { opacity: 1;}
     100% { opacity: 0;}
 }
+@media only screen and (max-width: 1024px) {
+    .features-wrapper {
+        width: 650px;
+    }
+}
 @media only screen and (max-width: 640px) {
     .features-wrapper {
         width: 350px;
