@@ -442,7 +442,7 @@
             <td>
                 <div class="row">
                     <div class="small-6">Remove the signature line</div>
-                    <div class="small-6 text-right"><i class="fi-photo"></i></div>
+                    <div class="small-6 text-right"></div>
                 </div>
             </td>
             <td class="text-center"><i class="fi-check"></i></td>
@@ -454,7 +454,7 @@
         after a simple in-app tutorial, and start streaming live using your mobile data with just a touch of a button.
         Let others see what your camera sees as it is happening.</div>
     <div class="row align-center">
-        <div class="small-2">
+        <div class="small-3">
             <a class="google-play-store"
                href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dmain_page_link%26utm_campaign%3Dshort_howto"
                class="app__googleplay"
@@ -462,7 +462,7 @@
                 <img src="img/buy/1280px-Google_play.png">
             </a>
         </div>
-        <div class="small-2">
+        <div class="small-3">
             <a href="https://itunes.apple.com/ua/app/live4/id919921242" target="_blank" class="app_appstore">
                 <img src="img/buy/1000px-App_Store_Badge.png">
             </a>
@@ -639,8 +639,6 @@ ga('send', 'pageview');
         document.querySelector(".app_appstore").style.display = "none";
     } else if (isIOs) {
         document.querySelector(".google-play-store").style.display = "none";
-        document.querySelector("video").src = "img/ios-short-button1-captions.mp4";
-        document.querySelector("video").poster = "img/ios-short-button1-captions.jpg";
     }
     if (isAndroid || isIOs) {
         let iframeContainer = document.getElementById("live4SubIFrame");

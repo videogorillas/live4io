@@ -1685,7 +1685,15 @@ ul.flex-list > li {
     0% { opacity: 1;}
     100% { opacity: 0;}
 }
-
+@media only screen and (max-width: 640px) {
+    .features-wrapper {
+        width: 350px;
+        margin-top: 100px;
+    }
+    .features-wrapper .info-popup {
+        width: 250px;
+    }
+}
 .footer-subscribe-header {
     font-size: 26px;
     font-weight: bold;
