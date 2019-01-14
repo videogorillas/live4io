@@ -651,10 +651,10 @@ ul.flex-list > li {
   padding-top: 10px;
 }
 .is-main .bottompart .app .app__link .app_appstore img {
-  width: 142px;
+    width: 142px;
 }
 .is-main .bottompart .app .app__link .google-play-store img {
-  width: 163px;
+    width: 163px;
 }
 @media only screen and (max-width: 720px) {
   .is-main .bottompart .app .app__link {
@@ -1626,6 +1626,78 @@ ul.flex-list > li {
   font-size: 21px;
   padding-right: 7px;
   cursor: pointer;
+}
+.features-wrapper {
+  width: 985px;
+  margin: 0 auto 20px;
+}
+.features-wrapper .fi-check {
+  color: limegreen;
+}
+.features-wrapper .fi-x {
+  color: #ee2737;
+}
+.features-wrapper .fi-info, .features-wrapper .fi-photo {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: darkgrey;
+}
+.features-wrapper .no-wifi-text {
+  padding-left: 15px;
+}
+.features-wrapper table {
+  margin-top: 2rem;
+}
+.features-bottom-text {
+    margin: 3rem 0 2rem;
+    font-size: 18px;
+}
+.features-wrapper table > tbody > tr > td:nth-child(1) {
+    width: 60%;
+    border-right: 1px solid #4242;
+}
+.features-wrapper .info-popup {
+    position: absolute;
+    width: 350px;
+    display: none;
+    background: white;
+    text-align: left;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    padding: 5px;
+}
+.features-wrapper .info-popup .notify-text {
+    margin-bottom: 1rem;
+}
+.features-wrapper .info-popup label input {
+    float: left;
+}
+
+.hide-smooth {
+    -webkit-animation: smooth 2s ease-in;
+    -moz-animation: smooth 2s ease-in;
+    -o-animation: smooth 2s ease-in;
+    -ms-animation: smooth 2s ease-in;
+    animation: smooth 2s ease-in;
+}
+
+@-webkit-keyframes smooth {
+    0% { opacity: 1;}
+    100% { opacity: 0;}
+}
+@media only screen and (max-width: 1024px) {
+    .features-wrapper {
+        width: 650px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .features-wrapper {
+        width: 350px;
+        margin-top: 100px;
+    }
+    .features-wrapper .info-popup {
+        width: 250px;
+    }
 }
 .footer-subscribe-header {
     font-size: 26px;

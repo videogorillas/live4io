@@ -9,10 +9,13 @@
         <div class="small-2 column">
             <a href="/index" class="header__logo">
                 <img src="/img/logo.svg" id="live4logo"></a></div>
-        <section id="navs" class="small-5 column">
+        <section id="navs" class="small-6 column">
             <ul class="inline-list left-nav small-right">
                 <li>
                     <a href="/start" class="btn-nav">Quick Start</a>
+                </li>
+                <li>
+                    <a href="/features" class="btn-nav">Features</a>
                 </li>
                 <li>
                     <a href="/blog" class="btn-nav">Blog</a>
@@ -25,7 +28,7 @@
                 </li>
             </ul>
         </section>
-        <div class="small-5 column store-btns">
+        <div class="small-4 column store-btns">
             <a href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3D{{page.id | remove_first: '/' | replace: '/', '_'}}_link%26utm_campaign%3Dshort_howto" class="google_play_btn"
                target="_blank">
                 <img src="/img/buy/google_play_btn_blue.svg" class="img-responsive"></a>
@@ -56,10 +59,10 @@ ga('send', 'pageview');
 </script>
 <script>
     if (window.location.pathname.endsWith("faq")) {
-        let blogLiEl = document.querySelector("#navs > ul > li:nth-child(3)");
+        let blogLiEl = document.querySelector("#navs > ul > li:nth-child(4)");
         blogLiEl.classList.add("active");
     } else {
-        let faqLiEl = document.querySelector("#navs > ul > li:nth-child(2)");
+        let faqLiEl = document.querySelector("#navs > ul > li:nth-child(3)");
         faqLiEl.classList.add("active")
     }
 </script>

@@ -12,7 +12,7 @@ Why? What should I do?**
 
    1. A user subscribes for 1-month or 3-months subscription and free trial begins.
 
-   2. A user changes subscription to ‘Yearly’ in phone settings still being on a free trial
+   2. A user changes subscription to ‘Yearly’ in phone settings still being on a free trial.
 
 ### Why it happens?
 
