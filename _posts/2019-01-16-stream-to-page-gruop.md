@@ -15,10 +15,10 @@ Guide for Android:
 
 ![LIVE4 how to stream on page group android](/assets/Android_page_group.png)
 
-Streaming to Public Pages and Groups are available via subscription.
+Streaming to Public Pages and Groups is available via subscription.
 
 Yearly subscription costs $24.99 per year, taxes are not included.
-Turning off logo and signature available only in yearly subscription.
+Turning off logo and signature line available only in yearly subscription.
 
 3 months subscription costs $9.99 per 3 months, taxes are not included.
 Monthly subscription costs $4.99 per month, taxes are not included.
