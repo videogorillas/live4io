@@ -71,11 +71,11 @@ ga('send', 'pageview');
     var isAndroid = userAgent.indexOf("android") > -1;
     var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
     if (isAndroid) {
-        document.querySelector(".app_appstore").style.display = "none";
+        document.querySelector(".app_store_btn").style.display = "none";
+        document.body.innerHTML = document.body.innerHTML.replace(/LIVE4/g, "<a href='https://play.google.com/store/apps/details?id=com.vg.goprolive'>LIVE4 GoPro app</a>")
     } else if (isIOs) {
-        document.querySelector(".google-play-store").style.display = "none";
-        document.querySelector("video").src = "img/ios-short-button1-captions.mp4";
-        document.querySelector("video").poster = "img/ios-short-button1-captions.jpg";
+        document.querySelector(".google_play_btn").style.display = "none";
+        document.body.innerHTML = document.body.innerHTML.replace(/LIVE4 GoPro app/g, "<a href='https://itunes.apple.com/ua/app/live4/id919921242'>LIVE4 GoPro app</a>")
     }
     if (isAndroid || isIOs) {
         let iframe = document.getElementById("live4SubIFrame");
