@@ -1782,6 +1782,35 @@ ul.flex-list > li {
         width: 250px;
     }
 }
+#chooseStore {
+  display: none;
+  width: 400px;
+  height: 120px;
+  border: 1px solid #ee2737;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 1;
+  padding-top: 5px;
+  font-weight: bold;
+}
+#chooseStore .alert-buttons {
+  position: absolute;
+  bottom: 25px;
+}
+.close-alert {
+  position: absolute;
+  top: 4px;
+  right: 9px;
+  color: darkgrey;
+  cursor: pointer;
+}
+.close-alert:hover {
+  color: #000;
+}
 .footer-subscribe-header {
     font-size: 26px;
     font-weight: bold;

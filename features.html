@@ -15,6 +15,25 @@
     <script async="" src="//www.google-analytics.com/analytics.js"></script>
 </head>
 <body class="is-responsive" cz-shortcut-listen="true">
+<div id="chooseStore">
+    <h5>Choose store</h5>
+    <span class="close-alert">&#x2716;</span>
+    <div class="row collapse align-center alert-buttons">
+        <div class="small-4 app__googleplay">
+            <a class="google-play-store"
+               href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dmain_page_link%26utm_campaign%3Dshort_howto"
+               target="_blank">
+                <img src="img/buy/1280px-Google_play.png">
+            </a>
+        </div>
+        <div class="small-1 blank-space"></div>
+        <div class="small-4 app_appstore">
+            <a href="https://itunes.apple.com/ua/app/live4/id919921242" target="_blank">
+                <img src="img/buy/1000px-App_Store_Badge.png">
+            </a>
+        </div>
+    </div>
+</div>
 <div class="header">
     <nav class="row">
         <div class="small-2 column">
@@ -753,16 +772,26 @@ ga('send', 'pageview');
     var isAndroid = userAgent.indexOf("android") > -1;
     var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
     var tryItButtons = document.querySelectorAll(".purchase-button-tryit");
+    var chooseStoreAlert = document.querySelector("#chooseStore");
+    var closeAlert = document.querySelector(".close-alert");
 
     let openStore = (applicationStoreUrl) => {
         if(tryItButtons != null) {
             tryItButtons.forEach(btn => {
                 btn.addEventListener("click", () => {
-                    window.open(applicationStoreUrl, '_blank')
+                    if (applicationStoreUrl === "") {
+                        chooseStoreAlert.setAttribute("style", "display:block")
+                    } else {
+                        window.open(applicationStoreUrl, '_blank')
+                    }
                 })
             });
         }
     };
+
+    closeAlert.addEventListener('click', () => {
+        chooseStoreAlert.setAttribute("style", "display:none")
+    });
 
     if (isAndroid) {
         document.querySelector(".app_appstore").style.display = "none";
@@ -775,7 +804,7 @@ ga('send', 'pageview');
         document.querySelector(".blank-space").style.display = "none";
         openStore(appStoreUrl)
     } else {
-        console.log("TODO: choose your store")
+        openStore("")
     }
     if (isAndroid || isIOs) {
         let iframeContainer = document.getElementById("live4SubIFrame");
