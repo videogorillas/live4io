@@ -1627,13 +1627,79 @@ ul.flex-list > li {
   padding-right: 7px;
   cursor: pointer;
 }
+.purchase-buttons-header {
+  text-align: center;
+}
+.purchase-buttons-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 42px;
+}
+.purchase-button {
+  width: 200px;
+  height: 610px;
+  position: relative;
+  padding: 42px 10px;
+  border: 2px solid #ee2737;
+  border-radius: 21px;
+  text-align: center;
+}
+.purchase-buttons-list > div:nth-child(1) .purchase-button-header {
+  margin-top: 21px;
+}
+
+.purchase-buttons-list > div:nth-child(1) .purchase-button-features-list {
+  margin-top: 42px;
+}
+.purchase-button-header {
+  font-size: 26px;
+  font-weight: bold;
+}
+.purchase-button-price {
+  font-weight: bold;
+  font-size: 20px;
+}
+.purchase-button-price-save {
+  font-weight: bold;
+}
+.purchase-button-price-subtitle {
+  font-size: 13px;
+  padding: 20px 0;
+}
+.purchase-button-features-list {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.purchase-button-features-list .red {
+  color: #ee2737;
+}
+.purchase-button-tryit {
+  width: fit-content;
+  position: absolute;
+  left: 50%;
+  font-weight: 700;
+  transform: translateX(-50%);
+  bottom: 30px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: #d80000;
+  cursor: pointer;
+  color: white;
+  padding: 5px 10px;
+}
+
 .features-wrapper {
   width: 985px;
-  margin: 0 auto;
+  margin: 120px auto 0;
   padding-bottom: 20px;
 }
 .features-wrapper .features-header {
-    text-align: center;
+  text-align: center;
+  margin-top: 110px;
 }
 .features-wrapper .fi-check {
   color: limegreen;
@@ -1693,15 +1759,57 @@ ul.flex-list > li {
     .features-wrapper {
         width: 650px;
     }
+    .purchase-buttons-list {
+        align-items: center;
+    }
+    .purchase-button {
+        flex: 0 42%;
+    }
 }
 @media only screen and (max-width: 640px) {
+    .purchase-buttons-list {
+        width: 380px;
+        margin: 0;
+    }
+    .purchase-button {
+        flex: 0 49%;
+        margin: 5px 0;
+    }
     .features-wrapper {
         width: 350px;
-        margin-top: 100px;
     }
     .features-wrapper .info-popup {
         width: 250px;
     }
+}
+#chooseStore {
+  display: none;
+  width: 400px;
+  height: 120px;
+  border: 1px solid #ee2737;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 1;
+  padding-top: 5px;
+  font-weight: bold;
+}
+#chooseStore .alert-buttons {
+  position: absolute;
+  bottom: 25px;
+}
+.close-alert {
+  position: absolute;
+  top: 4px;
+  right: 9px;
+  color: darkgrey;
+  cursor: pointer;
+}
+.close-alert:hover {
+  color: #000;
 }
 .footer-subscribe-header {
     font-size: 26px;

@@ -15,6 +15,25 @@
     <script async="" src="//www.google-analytics.com/analytics.js"></script>
 </head>
 <body class="is-responsive" cz-shortcut-listen="true">
+<div id="chooseStore">
+    <h5>Choose store</h5>
+    <span class="close-alert">&#x2716;</span>
+    <div class="row collapse align-center alert-buttons">
+        <div class="small-4 app__googleplay">
+            <a class="google-play-store"
+               href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dmain_page_link%26utm_campaign%3Dshort_howto"
+               target="_blank">
+                <img src="img/buy/1280px-Google_play.png">
+            </a>
+        </div>
+        <div class="small-1 blank-space"></div>
+        <div class="small-4 app_appstore">
+            <a href="https://itunes.apple.com/ua/app/live4/id919921242" target="_blank">
+                <img src="img/buy/1000px-App_Store_Badge.png">
+            </a>
+        </div>
+    </div>
+</div>
 <div class="header">
     <nav class="row">
         <div class="small-2 column">
@@ -51,9 +70,103 @@
 </div>
 
 <div class="features-wrapper">
+    <div class="purchase-buttons-header">
+        <h3>LIVE4 GoPro subscription plans</h3>
+        <h5>Go LIVE to Facebook with your GoPro camera</h5>
+    </div>
+    <div >
+        <div class="purchase-buttons-list">
+
+            <div class="purchase-button">
+
+                <div class="purchase-button-header">FREE</div>
+
+                <div class="purchase-button-price"></div>
+
+                <div class="purchase-button-features-list">
+                    <ul>
+                        <li>Streaming to personal Facebook feed</li>
+                        <li>Unlimited streaming</li>
+                        <li>Change stream privacy</li>
+                    </ul>
+                </div>
+
+                <div class="purchase-button-tryit">Try it</div>
+
+            </div>
+            <div class="purchase-button">
+
+                <div class="purchase-button-header">MONTH</div>
+
+                <div class="purchase-button-price">$4.99*</div>
+
+                <div class="purchase-button-price-subtitle">*Introductory price for Android users: first 3 months for $2.99</div>
+
+                <div class="purchase-button-features-list">
+                    <ul>
+                        <li>10-days free trial</li>
+                        <li>Unlimited Streaming</li>
+                        <li>Change stream privacy</li>
+                        <li>Streaming to personal Facebook feed</li>
+                        <li>Streaming to Public Pages</li>
+                        <li>Streaming to Groups</li>
+                    </ul>
+                </div>
+
+                <div class="purchase-button-tryit">Try it</div>
+
+            </div>
+            <div class="purchase-button">
+
+                <div class="purchase-button-header">THREE MONTHS</div>
+
+                <div class="purchase-button-price">$9.99*</div>
+                <div class="purchase-button-price-subtitle">*billed once in 3 months</div>
+                <div class="purchase-button-price-save">Save $14.97 during a year</div>
+
+                <div class="purchase-button-features-list">
+                    <ul>
+                        <li>10-days free trial</li>
+                        <li>Unlimited Streaming</li>
+                        <li>Change stream privacy</li>
+                        <li>Streaming to personal Facebook feed</li>
+                        <li>Streaming to Public Pages</li>
+                        <li>Streaming to Groups</li>
+                    </ul>
+                </div>
+
+                <div class="purchase-button-tryit">Try it</div>
+
+            </div>
+            <div class="purchase-button">
+
+                <div class="purchase-button-header">YEAR</div>
+
+                <div class="purchase-button-price">$24.99*</div>
+                <div class="purchase-button-price-subtitle">*billed once per year</div>
+                <div class="purchase-button-price-save">Save $34.89 during a year</div>
+
+                <div class="purchase-button-features-list">
+                    <ul>
+                        <li>10-days free trial</li>
+                        <li>Unlimited Streaming</li>
+                        <li>Change stream privacy</li>
+                        <li>Streaming to personal Facebook feed</li>
+                        <li>Streaming to Public Pages</li>
+                        <li>Streaming to Groups</li>
+                        <li class="red">Remove the LIVE4 logo</li>
+                        <li class="red">Remove the signature line</li>
+                    </ul>
+                </div>
+
+                <div class="purchase-button-tryit">Try it</div>
+
+            </div>
+
+        </div>
+    </div>
     <div class="features-header">
         <h3>LIVE4 GoPro Features</h3>
-        <h5>Go LIVE to Facebook with your GoPro camera</h5>
     </div>
     <table class="striped hover">
         <caption class="text-left">Camera Compatibility:</caption>
@@ -653,17 +766,45 @@ ga('send', 'pageview');
     }
 </script>
 <script type="text/javascript">
+    var playStoreUrl = "https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dterms_link%26utm_campaign%3Dshort_howto";
+    var appStoreUrl = "https://itunes.apple.com/ua/app/live4/id919921242";
     var userAgent = navigator.userAgent.toLowerCase();
     var isAndroid = userAgent.indexOf("android") > -1;
     var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
+    var tryItButtons = document.querySelectorAll(".purchase-button-tryit");
+    var chooseStoreAlert = document.querySelector("#chooseStore");
+    var closeAlert = document.querySelector(".close-alert");
+
+    let openStore = (applicationStoreUrl) => {
+        if(tryItButtons != null) {
+            tryItButtons.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    if (applicationStoreUrl === "") {
+                        chooseStoreAlert.setAttribute("style", "display:block")
+                    } else {
+                        window.open(applicationStoreUrl, '_blank')
+                    }
+                })
+            });
+        }
+    };
+
+    closeAlert.addEventListener('click', () => {
+        chooseStoreAlert.setAttribute("style", "display:none")
+    });
+
     if (isAndroid) {
         document.querySelector(".app_appstore").style.display = "none";
         document.querySelector(".app_store_btn").style.display = "none";
         document.querySelector(".blank-space").style.display = "none";
+        openStore(playStoreUrl)
     } else if (isIOs) {
         document.querySelector(".google_play_btn").style.display = "none";
         document.querySelector(".app__googleplay").style.display = "none";
         document.querySelector(".blank-space").style.display = "none";
+        openStore(appStoreUrl)
+    } else {
+        openStore("")
     }
     if (isAndroid || isIOs) {
         let iframeContainer = document.getElementById("live4SubIFrame");
