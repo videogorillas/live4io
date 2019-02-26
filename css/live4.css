@@ -1627,6 +1627,53 @@ ul.flex-list > li {
   padding-right: 7px;
   cursor: pointer;
 }
+.purchase-buttons-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 42px;
+}
+.purchase-button {
+  width: 200px;
+  height: 610px;
+  position: relative;
+  padding: 42px 10px;
+  border: 2px solid #ee2737;
+  border-radius: 21px;
+  text-align: center;
+}
+.purchase-button-header {
+  font-size: 26px;
+  font-weight: bold;
+}
+.purchase-button-price {
+  font-weight: bold;
+  font-size: 20px;
+}
+.purchase-button-features-list {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+}
+.purchase-button-features-list .red {
+  color: #ee2737;
+}
+.purchase-button-tryit {
+  width: fit-content;
+  position: absolute;
+  left: 50%;
+  font-weight: 700;
+  transform: translateX(-50%);
+  bottom: 30px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background: #d80000;
+  cursor: pointer;
+  color: white;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+
 .features-wrapper {
   width: 985px;
   margin: 0 auto;
