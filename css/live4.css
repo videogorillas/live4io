@@ -1632,6 +1632,7 @@ ul.flex-list > li {
 }
 .purchase-buttons-list {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   margin: 42px;
@@ -1693,7 +1694,7 @@ ul.flex-list > li {
 
 .features-wrapper {
   width: 985px;
-  margin: 0 auto;
+  margin: 120px auto 0;
   padding-bottom: 20px;
 }
 .features-wrapper .features-header {
@@ -1758,11 +1759,24 @@ ul.flex-list > li {
     .features-wrapper {
         width: 650px;
     }
+    .purchase-buttons-list {
+        align-items: center;
+    }
+    .purchase-button {
+        flex: 0 42%;
+    }
 }
 @media only screen and (max-width: 640px) {
+    .purchase-buttons-list {
+        width: 380px;
+        margin: 0;
+    }
+    .purchase-button {
+        flex: 0 49%;
+        margin: 5px 0;
+    }
     .features-wrapper {
         width: 350px;
-        margin-top: 100px;
     }
     .features-wrapper .info-popup {
         width: 250px;
