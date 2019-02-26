@@ -1627,6 +1627,9 @@ ul.flex-list > li {
   padding-right: 7px;
   cursor: pointer;
 }
+.purchase-buttons-header {
+  text-align: center;
+}
 .purchase-buttons-list {
   display: flex;
   flex-direction: row;
@@ -1642,6 +1645,13 @@ ul.flex-list > li {
   border-radius: 21px;
   text-align: center;
 }
+.purchase-buttons-list > div:nth-child(1) .purchase-button-header {
+  margin-top: 21px;
+}
+
+.purchase-buttons-list > div:nth-child(1) .purchase-button-features-list {
+  margin-top: 42px;
+}
 .purchase-button-header {
   font-size: 26px;
   font-weight: bold;
@@ -1650,10 +1660,18 @@ ul.flex-list > li {
   font-weight: bold;
   font-size: 20px;
 }
+.purchase-button-price-save {
+  font-weight: bold;
+}
+.purchase-button-price-subtitle {
+  font-size: 13px;
+  padding: 20px 0;
+}
 .purchase-button-features-list {
   text-align: left;
   font-size: 14px;
   font-weight: 600;
+  margin-top: 10px;
 }
 .purchase-button-features-list .red {
   color: #ee2737;
@@ -1671,7 +1689,6 @@ ul.flex-list > li {
   cursor: pointer;
   color: white;
   padding: 5px 10px;
-  margin: 0 auto;
 }
 
 .features-wrapper {
@@ -1680,7 +1697,8 @@ ul.flex-list > li {
   padding-bottom: 20px;
 }
 .features-wrapper .features-header {
-    text-align: center;
+  text-align: center;
+  margin-top: 110px;
 }
 .features-wrapper .fi-check {
   color: limegreen;
