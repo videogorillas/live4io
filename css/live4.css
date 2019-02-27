@@ -1627,7 +1627,7 @@ ul.flex-list > li {
   padding-right: 7px;
   cursor: pointer;
 }
-.purchase-buttons-header {
+.purchase-buttons-header, .purchase-buttons-footer {
   text-align: center;
 }
 .purchase-buttons-list {
