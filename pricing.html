@@ -775,6 +775,12 @@ ga('send', 'pageview');
     var chooseStoreAlert = document.querySelector("#chooseStore");
     var closeAlert = document.querySelector(".close-alert");
 
+    $(document).mouseup(function (e) {
+        if (!chooseStoreAlert.is(e.target) && chooseStoreAlert.has(e.target).length === 0) {
+            chooseStoreAlert.hide();
+        }
+    });
+
     let openStore = (applicationStoreUrl) => {
         if(tryItButtons != null) {
             tryItButtons.forEach(btn => {
