@@ -104,7 +104,7 @@
 
                 <div class="purchase-button-features-list">
                     <ul>
-                        <li>10-days free trial</li>
+                        <li>Free trial</li>
                         <li>Unlimited Streaming</li>
                         <li>Change stream privacy</li>
                         <li>Streaming to personal Facebook feed</li>
@@ -126,7 +126,7 @@
 
                 <div class="purchase-button-features-list">
                     <ul>
-                        <li>10-days free trial</li>
+                        <li>Free trial</li>
                         <li>Unlimited Streaming</li>
                         <li>Change stream privacy</li>
                         <li>Streaming to personal Facebook feed</li>
@@ -148,7 +148,7 @@
 
                 <div class="purchase-button-features-list">
                     <ul>
-                        <li>10-days free trial</li>
+                        <li>Free trial</li>
                         <li>Unlimited Streaming</li>
                         <li>Change stream privacy</li>
                         <li>Streaming to personal Facebook feed</li>
@@ -774,6 +774,12 @@ ga('send', 'pageview');
     var tryItButtons = document.querySelectorAll(".purchase-button-tryit");
     var chooseStoreAlert = document.querySelector("#chooseStore");
     var closeAlert = document.querySelector(".close-alert");
+
+    $(document).mouseup(function (e) {
+        if (!chooseStoreAlert.is(e.target) && chooseStoreAlert.has(e.target).length === 0) {
+            chooseStoreAlert.hide();
+        }
+    });
 
     let openStore = (applicationStoreUrl) => {
         if(tryItButtons != null) {
