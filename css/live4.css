@@ -1645,6 +1645,7 @@ ul.flex-list > li {
   border: 2px solid #ee2737;
   border-radius: 21px;
   text-align: center;
+  margin: 5px 0;
 }
 .purchase-buttons-list > div:nth-child(1) .purchase-button-header {
   margin-top: 21px;
