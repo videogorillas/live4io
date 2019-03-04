@@ -32,10 +32,11 @@ additional audio gear like external microphone won’t be extra.
 
 Also, before starting your stream double-check if your cellular connection is good and stable. For that, keep your
 phone not further than 3 meters (10ft) away from the camera and check your upload speed by using any existing speed
-test app. Usually, 3 Mbps upload capacity is sufficient for a stable live session. Pleasant bonus for our Android
-users: now you can check the speed of your internet within the LIVE4 app ;)
+test app. Usually, 3 Mbps upload capacity is sufficient for a stable live session.
 
 ![LIVE4 app’s internet speed test](/assets/kyivstar.png)
+
+Pleasant bonus for our Android users: now you can check the speed of your internet within the LIVE4 app ;)
 
 ![Prepare a plan for your livestream from a GoPro camera](/assets/adolfo-felix.jpg)
 
