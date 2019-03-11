@@ -776,8 +776,9 @@ ga('send', 'pageview');
     var closeAlert = document.querySelector(".close-alert");
 
     $(document).mouseup(function (e) {
-        if (!chooseStoreAlert.is(e.target) && chooseStoreAlert.has(e.target).length === 0) {
-            chooseStoreAlert.hide();
+        var alertContainer = $("#chooseStore");
+        if (!alertContainer.is(e.target) && alertContainer.has(e.target).length === 0) {
+            alertContainer.hide();
         }
     });
 
