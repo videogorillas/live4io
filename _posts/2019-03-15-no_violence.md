@@ -6,15 +6,16 @@ banner: /assets/no_violence.png
 
 ---
 
-When we were designing and developing LIVE4 app, first of all we thought of people who are into active sports, 
-music and everyone else to bring joy and happiness to people all over the world. For people who want to share 
-their important life events with their friends and family. People who wish to spread good emotions with social 
-networks and do that as easy as possible. Considering that responsibility of the live stream lies completely 
-and solely on the person who initiates it, we were always afraid of one thing. And it happened today.
+When we started LIVE4, it was first designed for people that were into extreme sports, live music and anyone else 
+who wanted to bring joy and happiness to people around the world. LIVE4 was meant to enable people to share 
+significant moments in their life with friends and family, and importantly spread positivity, on social media at 
+the click of a button. However, the use, or more specifically misuse, of our app was one thing we always hoped 
+wouldn’t happen. We’re devastated that something terrible happened today.
 
-LIVE4 team was shocked with news about tragic events that had happened in Christchurch, New Zealand.  
+Our team was shocked by the news of the tragic events which occurred in Christchurch, New Zealand.
 
-Let us make it very clear - we condemn actions of these horrible persons. We offer our deepest most heartfelt 
-condolences to the families and friends of the victims.
+Let us make it very clear - we strongly condemn the actions of these horrible persons and their disgusting use 
+of our app for these purposes. We offer our deepest condolences and most heartfelt sympathies to the families 
+and friends of the victims.
 
 LIVE4 has zero tolerance towards violence. We will do whatever is humanly possible for it to never happen again.
