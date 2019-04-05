@@ -15,7 +15,7 @@ introduced iOS and Android beta versions this summer. Now we are totally ready t
 versions for both devices. Learn more about new features in the following article and see how different
 LIVE4 is now.
 
-###	Stream live to Facebook via LIVE4
+###	Stream live on Facebook via LIVE4
 
 For a start, we picked one platform for live video streaming – Facebook. We strongly believe that if you
 want do something good, it is better to focus on one thing at a time. Thus, even though developing our app for
