@@ -110,6 +110,14 @@ body.is-main {
     font-weight: bold;
     font-family: 'Cytia-Light', sans-serif;
 }
+.restream-logo {
+    width: 170px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
 @media only screen and (max-width: 720px) {
   body {
     padding-top: 70px;
@@ -583,7 +591,7 @@ ul.flex-list > li {
   z-index: 5;
   width: 345px;
   height: 341px;
-  background: url("../img/nexus_iphone6_img.png") no-repeat;
+  background: url("../img/live4-in-phone-frames+restream.png") no-repeat;
   -moz-background-size: 345px 341px 100%;
   -webkit-background-size: 345px 341px 100%;
   background-size: 345px 341px 100%;
@@ -651,19 +659,17 @@ ul.flex-list > li {
   padding-top: 10px;
 }
 .is-main .bottompart .app .app__link .app_appstore img {
-    width: 142px;
+    height: 42px;
+    margin-left: 15px;
 }
 .is-main .bottompart .app .app__link .google-play-store img {
-    width: 163px;
+    height: 42px;
 }
 @media only screen and (max-width: 720px) {
   .is-main .bottompart .app .app__link {
     position: static;
     padding: 20px 0;
     text-align: center;
-  }
-  .is-main .bottompart .app .app__link a img {
-    width: 250px !important;
   }
   .join_fb {
       margin: 0 auto;
