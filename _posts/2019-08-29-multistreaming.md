@@ -8,26 +8,23 @@ banner: /assets/live4restream-banner-hand.png
 
 a
 
+**How to stream to 30 platforms at once having only one GoPro cam?**
 
-We've been asked so many times if LIVE4 can stream to YouTube or Twitter besides Facebook.
+Easy! Get the new version of LIVE4 app.
 
-And now we can say, definitely yes. But not only to YouTube and Twitter!
+Log in with Restream account. If you don't have one, you can create it in 30 seconds. We tested.
 
-From now on, with LIVE4 you can stream to 30+ platforms: Facebook, YouTube, Twitter, Twitch, 
-UStream, VK, Mixer, LinkedIn... You name it.
+Connect your iPhone or Android to your GoPro.
 
-And that's not all we are proud for. You really don't have to choose if you want 
-a Facebook stream or a YouTube stream. LIVE4 proposition: have it all at the same time. Simultaneously!
+Setup platforms you want to stream to: Facebook, YouTube, Twitter (Periscope), Twitch, UStream, VK, 
+Mixer, LinkedIn...
 
-That's how it works: you download the latest LIVE4 app from AppStore or Google Play. 
-Then, log into Restream account. Restream is a great service that we have recently integrated with 
-to make multistreaming from GoPro possible. 
-As soon as you set up channels you want to stream to, it's done!
+Press the Red Button.
 
-That's it. Wit a touch of a button, your stream is sent simultaneously to as many platforms, 
-as you wish. No limits. 
+Watch your friends and followers comments from all platforms at once!
 
-Almost all popular GoPros are supported as always.
+We've been working hard to make that happen. Now we hope you can enjoy it as well as we do.
+Show what you've got to as wide audience as you want.
 
 Have a nice multistreaming!
 
