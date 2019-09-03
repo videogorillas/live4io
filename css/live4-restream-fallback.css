@@ -55,3 +55,26 @@ body {
         background-size: cover;
     }
 }
+@media only screen and (max-width: 1125px) {
+    .camera-bg .fallback-description {
+        position: absolute;
+        z-index: 1;
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 1125px) {
+    .restream-promo-link a {
+        font-size: 20px;
+    }
+    .store-buttons > a img {
+        padding-bottom: 15px;
+    }
+    .fallback-description > img {
+        margin: 20px 0 42px !important;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .live4-restream-logo {
+        width: 42%;
+    }
+}
