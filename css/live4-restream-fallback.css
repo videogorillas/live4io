@@ -1,0 +1,57 @@
+body {
+    background: #172127;
+    overflow: hidden;
+}
+
+.camera-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../img/camera-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.camera-bg .store-buttons img {
+    width: 150px;
+}
+
+.camera-bg .fallback-description {
+    color: white;
+}
+
+.camera-bg .fallback-description .live4-restream-logo {
+    margin: 60px 0 42px;
+}
+
+.camera-bg .atom-line {
+    width: 200%;
+    height: 420px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(177deg);
+    background-color: #172127;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.camera-bg .restream-promo-link {
+    padding: 21px 0;
+    font-size: 30px;
+}
+
+.camera-bg .restream-promo-link a {
+    color: #ee2737;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1890px) {
+    .camera-bg {
+        background-size: cover;
+    }
+}
