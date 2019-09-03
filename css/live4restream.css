@@ -1,0 +1,43 @@
+.header {
+    background: rgba(255, 255, 255, 0.42);
+}
+#container1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#container1 .get-started {
+    z-index: 1;
+    color: white;
+}
+.atom-line {
+    transform: rotate(177deg);
+    background-color: #172127;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    height: 242px;
+    margin-top: 300px;
+}
+#container2 {
+    background: #172127;
+}
+#container2 .choice-image {
+    width: 100px;
+}
+#container2 .choice-text {
+    color: #000;
+}
+#container2 .short-video-description {
+    position: absolute;
+    color: white;
+}
+#container3 .platforms-integrated {
+    width: 420px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#container3 .platforms-icons img {
+    width: 50px;
+}
