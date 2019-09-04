@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LIVE4 Terms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <meta author="VideoGorillas LLC">
+    <meta apple-itunes-app="app-id=919921242">
+    <link rel="stylesheet" media="screen" href="css/normalize.css">
+    <link rel="stylesheet" media="screen" href="css/foundation.min.css">
+    <link rel="stylesheet" media="screen" href="css/live4.css">
+    <link rel="stylesheet" media="screen" href="css/restream-promo.css">
+    <link size="64x64" rel="shortcut icon" href="img/icons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="fonts/foundation-icons.css">
+    <script src="libraries/jquery-3.3.1.min.js"></script>
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+</head>
+<body class="is-responsive" cz-shortcut-listen="true">
+<div id="chooseStore">
+    <h5>Choose store</h5>
+    <span class="close-alert">&#x2716;</span>
+    <div class="row collapse align-center alert-buttons">
+        <div class="small-4 app__googleplay">
+            <a class="google-play-store"
+               href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dmain_page_link%26utm_campaign%3Dshort_howto"
+               target="_blank">
+                <img src="img/buy/1280px-Google_play.png">
+            </a>
+        </div>
+        <div class="small-1 blank-space"></div>
+        <div class="small-4 app_appstore">
+            <a href="https://itunes.apple.com/ua/app/live4/id919921242" target="_blank">
+                <img src="img/buy/1000px-App_Store_Badge.png">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="camera-bg">
+    <div class="row">
+        <div class="column medium-6 fallback-description">
+            <img class="live4-restream-logo" src="img/live4-restream-logo.png">
+            <h1>Get your LIVE4 discount!</h1>
+            <h3>To get your discount, open this link <br> on your iOS or Android.</h3>
+            <div class="column small-10 restream-promo-link">
+                <a href="https://live4.io/restream-promo">https://live4.io/restream-promo</a>
+            </div>
+            <div class="store-buttons">
+                <a href="https://itunes.apple.com/ua/app/live4/id919921242" target="_blank"><img
+                        src="img/buy/1000px-App_Store_Badge.png"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dmain_page_link%26utm_campaign%3Dshort_howto"
+                   target="_blank"><img src="img/buy/1280px-Google_play.png"></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="atom-line"></div>
+</div>
+
+
+
+<div id="live4SubIFrame"></div>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-55300163-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script>
+    $('i.fi-info').on('click', function(e) {
+        $(this).next('div').toggle()
+    });
+
+    $('.info-popup input:checkbox').change(
+        function () {
+            var submitButton = $(this).parent().prev('div').find('a');
+            if ($(this).is(':checked')) {
+                submitButton.removeAttr('disabled')
+            } else {
+                submitButton.attr('disabled', true)
+            }
+        });
+
+    var $fusionForm = $('form#fusionForm');
+
+    $('#submitFusionForm').on('click', function(e) {
+        e.preventDefault();
+        if ($('#fusionForm input').val()) {
+            var ffrm = $.ajax({
+                url: 'https://script.google.com/macros/s/AKfycbxgxeFU48MYWxjvamIcW39SZ6Y-CEFaRfFeEouEQAFzz29kR7A/exec',
+                method: "GET",
+                dataType: "json",
+                data: $fusionForm.serializeArray()
+            }).done(
+                $(this).text('Done').attr('disabled', 'true').off('click'),
+                $fusionForm.parent().addClass('hide-smooth'),
+                setTimeout(function () {
+                    $fusionForm.parent().removeAttr('style').removeClass('hide-smooth')
+                }, 2000),
+            );
+        }
+    });
+
+    var $youtubeForm = $('form#youtubeForm');
+
+    $('#submitYoutubeForm').on('click', function(e) {
+        e.preventDefault();
+        if ($('#youtubeForm input').val()) {
+            var yfrm = $.ajax({
+                url: 'https://script.google.com/macros/s/AKfycbwCKY4XPACXAUbqUTVN69sgYw5Nk2VFQigKZ2v_TAttkwuqXjQC/exec',
+                method: "GET",
+                dataType: "json",
+                data: $youtubeForm.serializeArray()
+            }).done(
+                $(this).text('Done').attr('disabled', 'true').off('click'),
+                $youtubeForm.parent().addClass('hide-smooth'),
+                setTimeout(function () {
+                    $youtubeForm.parent().removeAttr('style').removeClass('hide-smooth')
+                }, 2000),
+            );
+        }
+    });
+
+    var $igForm = $('form#igForm');
+
+    $('#submitIgForm').on('click', function(e) {
+        e.preventDefault();
+        if ($('#igForm input').val()) {
+            var igfrm = $.ajax({
+                url: 'https://script.google.com/macros/s/AKfycbxyEOu-58zTE2CDkxwYiIeIlqEY2iCdckGoh3IlF1Eq4zMOCgU/exec',
+                method: "GET",
+                dataType: "json",
+                data: $igForm.serializeArray()
+            }).done(
+                $(this).text('Done').attr('disabled', 'true').off('click'),
+                $igForm.parent().addClass('hide-smooth'),
+                setTimeout(function () {
+                    $igForm.parent().removeAttr('style').removeClass('hide-smooth')
+                }, 2000),
+            );
+        }
+    });
+
+    var $otherForm = $('form#otherForm');
+
+    $('#submitOtherForm').on('click', function(e) {
+        e.preventDefault();
+        if ($('#otherForm input').val()) {
+            var ofrm = $.ajax({
+                url: 'https://script.google.com/macros/s/AKfycbxmbYFvgRLHD0bef6p5QODbi144eJI-asT2LH2XaQSI8j1oi-E/exec',
+                method: "GET",
+                dataType: "json",
+                data: $otherForm.serializeArray()
+            }).done(
+                $(this).text('Done').attr('disabled', 'true').off('click'),
+                $otherForm.parent().addClass('hide-smooth'),
+                setTimeout(function () {
+                    $otherForm.parent().removeAttr('style').removeClass('hide-smooth')
+                }, 2000),
+            );
+        }
+    });
+
+    var $tagFriendForm = $('form#tagFriendForm');
+
+    $('#submitTagFriendForm').on('click', function(e) {
+        e.preventDefault();
+        if ($('#tagFriendForm input').val()) {
+            var tffrm = $.ajax({
+                url: 'https://script.google.com/macros/s/AKfycbz2plAZ2YNA5UTZV4DOr_Ep1-bSVEe7kJKR3NdRKrNPEXrUPlm2/exec',
+                method: "GET",
+                dataType: "json",
+                data: $tagFriendForm.serializeArray()
+            }).done(
+                $(this).text('Done').attr('disabled', 'true').off('click'),
+                $tagFriendForm.parent().addClass('hide-smooth'),
+                setTimeout(function () {
+                    $tagFriendForm.parent().removeAttr('style').removeClass('hide-smooth')
+                }, 2000),
+            );
+        }
+    });
+
+    var $eventPageForm = $('form#eventPageForm');
+
+    $('#submitEventPageForm').on('click', function (e) {
+        e.preventDefault();
+        if ($('#eventPageForm input').val()) {
+            var epfrm = $.ajax({
+                url: 'https://script.google.com/macros/s/AKfycbxg0_z378tGwi9mVuBGesIHtNTlmk6a43c4AECl-3rfoCkk2T2w/exec',
+                method: "GET",
+                dataType: "json",
+                data: $eventPageForm.serializeArray()
+            }).done(
+                $(this).text('Done').attr('disabled', 'true').off('click'),
+                $eventPageForm.parent().addClass('hide-smooth'),
+                setTimeout(function () {
+                    $eventPageForm.parent().removeAttr('style').removeClass('hide-smooth')
+                }, 2000),
+            );
+        }
+    });
+</script>
+<script>
+    let iframeContainer = document.getElementById("live4SubIFrame");
+
+    var isMobile = () => {
+        var userAgent = navigator.userAgent.toLowerCase();
+        var isAndroid = userAgent.indexOf("android") > -1;
+        var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
+        return !!(isAndroid || isIOs);
+    };
+
+    if (isMobile()) {
+        showSubscriptionForm = () => {
+            document.querySelector("#live4SubIFrame").setAttribute("style", "top:32%; height:154px");
+            iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"300\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
+        };
+    } else {
+        showSubscriptionForm = () => {
+            iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"600\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
+        };
+    }
+
+    onLoadIFrameListener = () => {
+        let closeIFrameBtn = iframeContainer.querySelector("#closeIFrameBtn");
+        let closeForm = iframeContainer.querySelector("#closeForm");
+        closeIFrameBtn.onclick = () => {
+            iframeContainer.innerHTML = "";
+        };
+        closeForm.onclick = () => {
+            iframeContainer.innerHTML = "";
+        }
+    }
+</script>
+<script type="text/javascript">
+    var playStoreUrl = "https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dterms_link%26utm_campaign%3Dshort_howto";
+    var appStoreUrl = "https://itunes.apple.com/ua/app/live4/id919921242";
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isAndroid = userAgent.indexOf("android") > -1;
+    var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
+    var tryItButtons = document.querySelectorAll(".purchase-button-tryit");
+    var chooseStoreAlert = document.querySelector("#chooseStore");
+    var closeAlert = document.querySelector(".close-alert");
+
+    $(document).mouseup(function (e) {
+        var alertContainer = $("#chooseStore");
+        if (!alertContainer.is(e.target) && alertContainer.has(e.target).length === 0) {
+            alertContainer.hide();
+        }
+    });
+
+    let openStore = (applicationStoreUrl) => {
+        if(tryItButtons != null) {
+            tryItButtons.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    if (applicationStoreUrl === "") {
+                        chooseStoreAlert.setAttribute("style", "display:block")
+                    } else {
+                        window.open(applicationStoreUrl, '_blank')
+                    }
+                })
+            });
+        }
+    };
+
+    closeAlert.addEventListener('click', () => {
+        chooseStoreAlert.setAttribute("style", "display:none")
+    });
+
+    if (isAndroid) {
+        document.querySelector(".app_appstore").style.display = "none";
+        document.querySelector(".app_store_btn").style.display = "none";
+        document.querySelector(".blank-space").style.display = "none";
+        openStore(playStoreUrl)
+    } else if (isIOs) {
+        document.querySelector(".google_play_btn").style.display = "none";
+        document.querySelector(".app__googleplay").style.display = "none";
+        document.querySelector(".blank-space").style.display = "none";
+        openStore(appStoreUrl)
+    } else {
+        openStore("")
+    }
+    if (isAndroid || isIOs) {
+        let iframeContainer = document.getElementById("live4SubIFrame");
+        iframeContainer.setAttribute("style", "top:21% !important; height:154px !important")
+    }
+</script>
+</body>
+</html>

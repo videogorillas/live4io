@@ -1,0 +1,98 @@
+body {
+    background: #172127;
+    overflow: hidden;
+}
+
+.camera-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../img/camera-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.camera-bg .store-buttons img {
+    width: 150px;
+}
+
+.camera-bg .fallback-description {
+    color: white;
+}
+
+.camera-bg .fallback-description .live4-restream-logo {
+    margin: 60px 0 42px;
+}
+
+.camera-bg .atom-line {
+    width: 200%;
+    height: 420px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(177deg);
+    background-color: #172127;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.camera-bg .restream-promo-link {
+    padding: 21px 0;
+    font-size: 30px;
+}
+
+.camera-bg .restream-promo-link a {
+    color: #ee2737;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 890px) {
+    .camera-bg {
+        background-size: cover;
+    }
+    .camera-bg .fallback-description {
+        margin: 25px;
+    }
+}
+@media only screen and (max-width: 1625px) {
+    .camera-bg {
+        background-size: contain;
+    }
+}
+@media only screen and (max-width: 1125px) {
+    .camera-bg .fallback-description {
+        position: absolute;
+        z-index: 1;
+    }
+    .restream-promo-link a {
+        font-size: 18px;
+    }
+    .store-buttons > a img {
+        padding-bottom: 15px;
+    }
+    .fallback-description > img {
+        margin: 20px 0 42px !important;
+    }
+}
+@media only screen and (max-width: 750px) {
+    body {
+        overflow: visible;
+    }
+    .camera-bg {
+        background-size: cover;
+    }
+    .live4-restream-logo {
+        width: 42%;
+    }
+    .camera-bg .atom-line {
+        width: 0;
+        height: 0;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .camera-bg {background-size: contain}
+}
