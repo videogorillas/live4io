@@ -725,6 +725,9 @@ ul.flex-list > li {
     -webkit-flex-direction: row-reverse;
     flex-direction: column;
   }
+  .content {
+    margin: 120px auto 42px;
+  }
   body:not(.is-main) .header #navs .left-nav li.active .btn-nav {
     position: relative;
   }
@@ -1513,6 +1516,7 @@ ul.flex-list > li {
   }
   #live4SubIFrame iframe {
     width: 310px;
+    z-index: 999;
   }
 }
 .step {
