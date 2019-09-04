@@ -27,5 +27,3 @@ We've been working hard to make that happen. Now we hope you can enjoy it as wel
 Show what you've got to as wide audience as you want.
 
 Have a nice multistreaming!
-
-LIVE4 team
