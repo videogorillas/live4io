@@ -10,9 +10,26 @@ html {
     justify-content: center;
 }
 #container1 {
-    height: 800px;
+    padding: 210px 0;
     background: url("../img/live4-restream-bg.png") no-repeat;
     background-size: cover;
+}
+#container1 h5 {
+    margin: 20px 0 30px;
+}
+
+#container1 .learn-more-button {
+    padding: 12px 35px;
+    border-radius: 6px;
+    color: white !important;
+    font-weight: bold;
+    background: black;
+    transition: background-color .3s ease-out;
+}
+
+#container1 .learn-more-button:hover {
+    color: black !important;
+    background-color: white;
 }
 #container1 .get-started {
     z-index: 1;
@@ -28,6 +45,9 @@ html {
 }
 #container2 .choice-text {
     color: #ffffff;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 21px;
 }
 #container2 .short-video-description {
     position: absolute;
@@ -35,6 +55,22 @@ html {
 }
 #container3 {
     padding: 150px 0 100px;
+}
+#container4 .li-num {
+    margin-right: 15px;
+    background: #ee2737;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+    padding: 9px;
+}
+#container4 .li-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #container4 {
     padding-top: 100px;
@@ -52,6 +88,10 @@ html {
     position: absolute;
     left: -30px;
     top: -30px;
+}
+#container5 {
+    padding-bottom: 250px;
+    margin-bottom: 150px;
 }
 #container5 .exclusive-offer {
     position: relative;
@@ -96,18 +136,4 @@ html {
 
 .exclusive-offer-button:hover {
     background-color: #e41830;
-}
-
-.learn-more-button {
-    padding: 12px 35px;
-    border-radius: 6px;
-    color: white !important;
-    font-weight: bold;
-    background: black;
-    transition: background-color .3s ease-out;
-}
-
-.learn-more-button:hover {
-    color: black !important;
-    background-color: white;
 }
