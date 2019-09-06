@@ -579,8 +579,8 @@ ul.flex-list > li {
 }
 .is-main .bottompart .app .app__scr {
   position: absolute;
-  top: -230px;
-  right: 0px;
+  top: -350px;
+  right: 0;
   z-index: 5;
   width: 345px;
   height: 341px;
