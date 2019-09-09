@@ -1701,7 +1701,7 @@ ul.flex-list > li {
 
 .features-wrapper {
   width: 985px;
-  margin: 120px auto 0;
+  margin: 0 auto;
   padding-bottom: 20px;
 }
 .features-wrapper .features-header {
@@ -1771,6 +1771,15 @@ ul.flex-list > li {
     }
     .purchase-button {
         flex: 0 42%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .features-wrapper {
+        margin: 120px auto 0;
+    }
+    .content_support {
+        margin: 120px auto 0;
     }
 }
 @media only screen and (max-width: 640px) {
