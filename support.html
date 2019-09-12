@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>LIVE4 Start</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+    <meta author="VideoGorillas LLC">
+    <meta apple-itunes-app="app-id=919921242">
+    <link rel="stylesheet" media="screen" href="css/normalize.css">
+    <link rel="stylesheet" media="screen" href="css/foundation.min.css">
+    <link rel="stylesheet" media="screen" href="css/live4.css">
+    <link size="64x64" rel="shortcut icon" href="img/icons/favicon.ico">
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+</head>
+<body class="is-responsive " cz-shortcut-listen="true">
+<div class="header">
+    <nav class="row">
+        <div class="small-2 column">
+            <a href="/index" class="header__logo">
+                <img src="img/logo.svg" id="live4logo"></a></div>
+        <section id="navs" class="small-6 column">
+            <ul class="inline-list left-nav small-right">
+                <li>
+                    <a href="/start" class="btn-nav">Quick Start</a>
+                </li>
+                <li>
+                    <a href="/pricing" class="btn-nav">Pricing</a>
+                </li>
+                <li>
+                    <a href="/blog" class="btn-nav">Blog</a>
+                </li>
+                <li>
+                    <a href="/blog/faq" class="btn-nav">FAQ</a>
+                </li>
+                <li class="subscribe-btn">
+                    <a href="#" class="btn-nav" onclick="showSubscriptionForm()">Subscribe</a>
+                </li>
+            </ul>
+        </section>
+        <div class="small-4 column store-btns">
+            <a href="https://play.google.com/store/apps/details?id=com.vg.goprolive&referrer=utm_source%3Dlive4_web%26utm_medium%3Dlive4io_banner%26utm_term%3Dcampaign1%26utm_content%3Dquick_start_link%26utm_campaign%3Dshort_howto"
+               class="google_play_btn" target="_blank">
+                <img src="img/buy/google_play_btn_blue.svg" class="img-responsive"></a>
+            <a href="https://itunes.apple.com/ua/app/live4/id919921242" class="app_store_btn" target="_blank">
+                <img src="img/buy/app_store_btn_blue.svg" class="img-responsive">
+            </a>
+        </div>
+    </nav>
+</div>
+<div class="content content_support">
+    <div class="step row">
+        <div class="small-10 small-offset-2 columns">
+            <h5>Answers for the most popular questions you can find <a href="/blog/faq">here</a></h5>
+            <h5>Still have questions?</h5>
+            <h2 class="step__descr"><span>E-MAIL US</span> <a id="supportEmail" href="mailto:support@live4.io?Subject=LIVE4%20Support">support@live4.io</a></h2>
+            <h2 class="step__descr"><span>Our Facebook</span> <a href="https://www.facebook.com/LIVE4GoPro/">LIVE4 GoPro</a></h2>
+            <h2 class="step__descr"><span>CONTACT US via Messenger</span> <a href="https://m.me/LIVE4GoPro" target="_blank">Messenger</a></h2>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="row">
+        <div class="small-12 column">
+            <p>©&nbsp;VideoGorillas LLC, 2013-2019
+                <span><a href="/policy">Privacy &amp; Terms</a></span></p>
+            <p>Designed for use with GOPRO® products. GOPRO® is a registered trademarks of Woodman Labs, Inc. in the
+                United States and other countries. Patents pending.</p></div>
+    </div>
+</div>
+<div id="live4SubIFrame"></div>
+<div class="fb-root"></div>
+<script>
+    let iframeContainer = document.getElementById("live4SubIFrame");
+
+    var isMobile = () => {
+        var userAgent = navigator.userAgent.toLowerCase();
+        var isAndroid = userAgent.indexOf("android") > -1;
+        var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
+        return !!(isAndroid || isIOs);
+    };
+
+    if (isMobile()) {
+        showSubscriptionForm = () => {
+            document.querySelector("#live4SubIFrame").setAttribute("style", "top:32%; height:154px");
+            iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"300\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
+        };
+    } else {
+        showSubscriptionForm = () => {
+            iframeContainer.innerHTML = "<div id=\"closeIFrameBtn\">&#10005;</div><iframe src=\"https://goo.gl/forms/qjImSf6UsHEBxmrm2\" onload='onLoadIFrameListener()' width=\"640\" height=\"600\" frameborder=\"0\">Loading...</iframe><div id=\"closeForm\">Close</div>";
+        };
+    }
+
+    onLoadIFrameListener = () => {
+        var closeIFrameBtn = iframeContainer.querySelector("#closeIFrameBtn");
+        let closeForm = iframeContainer.querySelector("#closeForm");
+        closeIFrameBtn.onclick = () => {
+            iframeContainer.innerHTML = "";
+        };
+        closeForm.onclick = () => {
+            iframeContainer.innerHTML = "";
+        }
+    }
+</script>
+<script type="text/javascript">
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isAndroid = userAgent.indexOf("android") > -1;
+    var isIOs = navigator.userAgent.match(/iPhone|iPad/i);
+    if (isAndroid) {
+        document.querySelector(".app_store_btn").style.display = "none";
+    } else if (isIOs) {
+        document.querySelector(".google_play_btn").style.display = "none";
+        document.querySelector("video").src = "img/ios-short-button1-captions.mp4";
+        document.querySelector("video").poster = "img/ios-short-button1-captions.jpg";
+    }
+    if (isAndroid || isIOs) {
+        let iframeContainer = document.getElementById("live4SubIFrame");
+        iframeContainer.setAttribute("style", "top:21% !important; height:154px !important")
+    }
+</script>
+<script>(function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-55300163-1', 'auto');
+ga('send', 'pageview');
+</script>
+</body>
+</html>
