@@ -38,7 +38,7 @@ html {
 #container2 {
     background: #172127;
     padding-top: 170px;
-    padding-bottom: 400px;
+    padding-bottom: 500px;
 }
 #container2 .choice-image img {
     width: 100px;
@@ -52,6 +52,10 @@ html {
 #container2 .short-video-description {
     position: absolute;
     color: white;
+}
+#container2 .short-video-description h1 {
+    text-align: center;
+    margin: 20px 0 100px;
 }
 #container3 {
     padding: 150px 0 100px;
