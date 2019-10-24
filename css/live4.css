@@ -1653,12 +1653,9 @@ ul.flex-list > li {
   text-align: center;
   margin: 5px 0;
 }
-.purchase-buttons-list > div:nth-child(1) .purchase-button-header {
-  margin-top: 21px;
-}
-
-.purchase-buttons-list > div:nth-child(1) .purchase-button-features-list {
-  margin-top: 42px;
+.purchase-button:hover {
+  transform: scale(1.05);
+  transition: all .2s ease-in-out;
 }
 .purchase-button-header {
   font-size: 26px;
@@ -1691,7 +1688,6 @@ ul.flex-list > li {
   font-weight: 700;
   transform: translateX(-50%);
   bottom: 30px;
-  border: 1px solid black;
   border-radius: 8px;
   background: #d80000;
   cursor: pointer;
