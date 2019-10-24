@@ -1721,6 +1721,9 @@ ul.flex-list > li {
 .features-wrapper .fi-x {
   color: #ee2737;
 }
+.features-wrapper .fi-wrench {
+  color: #4a4a4a;
+}
 .features-wrapper .fi-info, .features-wrapper .fi-photo {
   cursor: pointer;
   font-size: 1.2rem;

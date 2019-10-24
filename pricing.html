@@ -416,33 +416,10 @@
             <td>
                 <div class="row">
                     <div class="small-6">Youtube</div>
-                    <div class="small-6 text-right">
-                        <i class="fi-info"></i>
-                        <div class="info-popup">
-                            <form id="youtubeForm">
-                                <div class="row collapse">
-                                    <div class="small-1 columns"></div>
-                                    <div class="small-11 columns notify-text">Notify me when streaming to this platform is available</div>
-                                </div>
-                                <div class="row collapse ">
-                                    <div class="small-1 columns"></div>
-                                    <div class="small-7 columns">
-                                        <input type="email" name="YoutubeResponses" placeholder="Email:" required>
-                                    </div>
-                                    <div class="small-4 columns">
-                                        <a href="#!" id="submitYoutubeForm" class="button postfix success submit-button"
-                                           aria-label="submit form">Subscribe</a>
-                                    </div>
-                                </div>
-                                <label for="checkboxYoutube"><input id="checkboxYoutube" type="checkbox" checked>I
-                                    agree to receive information about
-                                    the availability of new platforms</label>
-                            </form>
-                        </div>
-                    </div>
+                    <div class="small-6 text-right"></div>
                 </div>
             </td>
-            <td class="text-center"><i class="fi-x"></i></td>
+            <td class="text-center"><i class="fi-check"></i></td>
         </tr>
         <tr>
             <td>
@@ -506,7 +483,7 @@
                     </div>
                 </div>
             </td>
-            <td class="text-center"><i class="fi-x"></i></td>
+            <td class="text-center"><i class="fi-wrench"></i></td>
         </tr>
     </table>
 
@@ -670,26 +647,6 @@ ga('send', 'pageview');
                 $fusionForm.parent().addClass('hide-smooth'),
                 setTimeout(function () {
                     $fusionForm.parent().removeAttr('style').removeClass('hide-smooth')
-                }, 2000),
-            );
-        }
-    });
-
-    var $youtubeForm = $('form#youtubeForm');
-
-    $('#submitYoutubeForm').on('click', function(e) {
-        e.preventDefault();
-        if ($('#youtubeForm input').val()) {
-            var yfrm = $.ajax({
-                url: 'https://script.google.com/macros/s/AKfycbwCKY4XPACXAUbqUTVN69sgYw5Nk2VFQigKZ2v_TAttkwuqXjQC/exec',
-                method: "GET",
-                dataType: "json",
-                data: $youtubeForm.serializeArray()
-            }).done(
-                $(this).text('Done').attr('disabled', 'true').off('click'),
-                $youtubeForm.parent().addClass('hide-smooth'),
-                setTimeout(function () {
-                    $youtubeForm.parent().removeAttr('style').removeClass('hide-smooth')
                 }, 2000),
             );
         }
