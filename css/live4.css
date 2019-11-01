@@ -1898,3 +1898,67 @@ ul.flex-list > li {
   float: left;
   margin-right: 14px;
 }
+
+.faq-body {
+  padding: 25px 25px 25px 25px;
+}
+
+.faq-main-title {
+  text-align: center;
+  font-size: 23px;
+}
+.faq-main-subtitle {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: light;
+}
+
+.faq-main-topic {
+  padding: 10px 0px 10px 0px;
+}
+
+.faq-main-h1 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: light;
+}
+a .faq-main-h1 {
+  color: black;
+}
+a .faq-main-h1-descr {
+  color: #4A4A4A;
+}
+
+.faq-main-h1-descr {
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: light;
+}
+
+.faq-h1 {
+  padding-bottom: 25px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.faq-h2 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: light;
+}
+
+/*.faq-h3 {*/
+/*  text-align: left;*/
+/*  font-size: 15px;*/
+/*  font-weight: bold;*/
+/*}*/
+
+.faq-p {
+  padding-bottom: 20px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: light;
+  color: #4A4A4A;
+}
