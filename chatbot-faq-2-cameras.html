@@ -16,19 +16,10 @@
 
 <div class="faq-h1">Cameras</div>
 
-<div class="faq-h2">Supported cameras</div>
-<div class="faq-p">LIVE4 supports almost all GoPro models. 
-    <br/><a href="">Full list of cameras.</a>
-</div>
-
 <div class="faq-h2">Connect my GoPro</div>
 <div class="faq-p">To connect your GoPro step-by-step, use either LIVE4 app tutorial or chat bot helper.
-    <br/><a href="javascript:sendMessage();">Open chat bot</a>
-    <br/><a href="https://m.me/strongtyping?ref=%7B%22agent%22:%22help%22,%22command%22:%22connect-gopro%22%7D">Open chat bot test2</a>
+    <br/><a href="https://m.me/LIVE4GoPro?ref=%7B%22agent%22:%22help%22,%22command%22:%22connect-gopro%22%7D">Open chat bot</a>
 </div>
-
-<div class="faq-h2">Supported resolutions</div>
-<div class="faq-p">Full list of supported resolutions can be found <a href="">here</a></div>
 
 <div class="faq-h2">Is my video footage saved?</div>
 <div class="faq-p">By default, yes.</div>
@@ -36,65 +27,43 @@
     <br/><a href="">How to turn off recording video</a>
 </div>
 
-<div class="faq-p"><a href="javascript:closeBrowser();">Close via Extensions</a></div>
-<div class="faq-p"><a href="https://www.messenger.com/closeWindow/?image_url=https://live4.io/img/logo.svg&display_text=Close window?">Close via Extensions</a></div>
+<div class="faq-h2">Supported resolutions</div>
+<div class="faq-p">Each GoPro model has its own list of supported/not supported for streaming resolutions + fps combinations.
+    If your camera is set to any “unsupported” value, you will be prompted to switch it before streaming
+    to the nearest supported resolution + fps.
+</div>
+
+<div class="faq-h2">What resolution is streamed to Facebook, YouTube, etc.?</div>
+<div class="faq-p">Resolution of your stream depends on the camera you are using. Note that we are not streaming the file that is
+    being recorded, but the preview that you are seeing on the screen (yes, they are not the same one).
+    Hero3 cameras allow to stream 240p, Hero4 and up 480p. Streaming 720p will be available soon.
+</div>
+
+<div class="faq-h2">Supported cameras</div>
+<div class="faq-p">
+    <ul>
+    <li>Hero 3 white</li>
+    <li>Hero 3 black</li>
+    <li>Hero 3+ silver</li>
+    <li>Hero 3+ black</li>
+    <li>Hero +</li>
+    <li>Hero 4 black</li>
+    <li>Hero 4 silver</li>
+    <li>Hero session</li>
+    <li>Hero 4 session</li>
+    <li>Hero 5 black</li>
+    <li>Hero 5 session</li>
+    <li>Hero 2018</li>
+    <li>Hero 6 black</li>
+    <li>Hero 7 white</li>
+    <li>Hero 7 silver</li>
+    <li>Hero 7 black</li>
+</ul>
+</div>
+
 <div class="faq-p"><a href="chatbot-faq.html">Back to F.A.Q.</a></div>
 
 
-<script>
-    window.extAsyncInit = function() {
-        console.log("Messenger Extensions finished loading")
-    };
-
-    function closeBrowser() {
-        MessengerExtensions.requestCloseBrowser(function success() {
-            // webview closed
-        }, function error(err) {
-            // an error occurred
-        });
-    }
-
-    function sendMessage() {
-        var message = {
-            "attachment":{
-                "type":"template",
-                "payload":{
-                    "template_type":"generic",
-                    "elements": [{
-                        "title":"I took Peter's 'Which Hat Are You?' Quiz",
-                        "image_url": "https://bot.peters-hats.com/img/hats/fez.jpg",
-                        "subtitle": "My result: Fez",
-                        "default_action":{
-                            "type":"web_url",
-                            "url": "https://bot.peters-hats.com/view_quiz_results.php?user=24601"
-                        },
-                        "buttons":[{
-                            "type":"web_url",
-                            "url":"https://bot.peters-hats.com/hatquiz.php?referer=24601",
-                            "title":"Take the Quiz"
-                        }]
-                    }]
-                }
-            }
-        };
-
-        MessengerExtensions.beginShareFlow(function(share_response) {
-                // User dismissed without error, but did they share the message?
-                if(share_response.is_sent){
-                    // The user actually did share.
-                    // Perhaps close the window w/ requestCloseBrowser().
-                }
-            },
-            function(errorCode, errorMessage) {
-// An error occurred in the process
-
-            },
-            message,
-            "current_thread");
-    }
-
-
-</script>
 <script>
     (function(d, s, id){
         var js, fjs = d.getElementsByTagName(s)[0];
