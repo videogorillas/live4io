@@ -1924,24 +1924,26 @@ ul.flex-list > li {
   font-weight: light;
   color: black;
 }
-a .faq-main-h1 {
-  color: black;
-}
-a .faq-main-h1-descr {
-  color: #4A4A4A;
-}
 
-.faq-main-h1-descr {
+.faq-text {
   padding: 0px 0px 0px 0px;
   text-align: left;
   font-size: 13px;
   font-weight: light;
+  color: #4A4A4A;
+}
+
+a .faq-main-h1 {
+  color: black;
+}
+a .faq-text {
+  color: #4A4A4A;
 }
 
 .faq-h1 {
   padding-bottom: 25px;
   text-align: left;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .faq-h2 {
@@ -1958,8 +1960,10 @@ a .faq-main-h1-descr {
 
 .faq-p {
   padding-bottom: 20px;
-  text-align: left;
-  font-size: 13px;
-  font-weight: light;
-  color: #4A4A4A;
+}
+
+img.faq-platform-icon {
+  width: 24px;
+  margin: 5px 5px 5px 0px;
+  vertical-align: middle;
 }
