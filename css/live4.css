@@ -1952,11 +1952,12 @@ a .faq-text {
   font-weight: light;
 }
 
-/*.faq-h3 {*/
-/*  text-align: left;*/
-/*  font-size: 15px;*/
-/*  font-weight: bold;*/
-/*}*/
+.faq-h3 {
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  color: #979797;
+}
 
 .faq-p {
   padding-bottom: 20px;
